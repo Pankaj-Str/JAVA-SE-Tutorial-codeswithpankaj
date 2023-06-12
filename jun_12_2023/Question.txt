@@ -1,0 +1,6 @@
+Write a  Program to Check Whether a Number is Even or Odd (user input)
+Write a  Program to Check Whether an Alphabet is Vowel or Consonant(user input)
+Write a  Program to Find the Largest Among Three Numbers(user input)
+Write a  Program to Check Leap Year(user input)
+Write a  Program to Check Whether a Number is Positive or Negative(user input)
+Write a  Program to Check Whether a Character is Alphabet or Not(user input)
