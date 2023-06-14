@@ -3,7 +3,7 @@
 1. Write a  Program to Make a Simple Calculator Using switch...case
 -------
 ## 2. Password Checker 
-Example : <br><br><br>
+Example : <br><br>
 Set your password :<br>
 p4n@in<br>
 Enter your Password :<br> 
