@@ -1,9 +1,10 @@
 ### Java for Loop
 1. Java for loop is used to run a block of code for a certain number of times. The syntax of for loop is:
-
-for (initialExpression; testExpression; updateExpression) {
-    // body of the loop
-}
+<br><br>
+for (initialExpression; testExpression; updateExpression) {<br>
+    // body of the loop<br>
+}<br>
+<br><br>
 Here,
 
 * The initialExpression initializes and/or declares variables and executes only once.
