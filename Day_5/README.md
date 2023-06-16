@@ -14,7 +14,7 @@ Here,
 
   ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/24269c27-9570-4168-8828-d9f890dad26a)
 
-### Assignment 
+### Assignment Day 5
   1. Java Program to Display Alphabets (A to Z) using loop
   2. Java Program to Count Number of Digits in an Integer
   3. Java Program to Reverse a Number
