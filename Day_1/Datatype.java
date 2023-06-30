@@ -1,6 +1,6 @@
 package Day_1;
 
-public class Datatype_variable {
+public class Datatype {
 
 	public static void main(String[] args) {
 		
