@@ -1,5 +1,7 @@
 # Operators
-In Java, operators are symbols that perform specific operations on one or more operands (variables, literals, or expressions) and produce a result. Java supports a wide range of operators that can be categorized into several types:[I'm an inline-style link]([https://www.google.com](https://github.com/Pankaj-Str/Learn-JAVA-SE/blob/main/Day_2/Arithmetic_Operators.md)
+In Java, operators are symbols that perform specific operations on one or more operands (variables, literals, or expressions) and produce a result. Java supports a wide range of operators that can be categorized into several types:
+
+[1. Arithmetic Operators:]([https://www.google.com](https://github.com/Pankaj-Str/Learn-JAVA-SE/blob/main/Day_2/Arithmetic_Operators.md)
 
     1. Arithmetic Operators:
         +: Addition operator. Adds two operands.
