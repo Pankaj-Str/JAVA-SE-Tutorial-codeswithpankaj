@@ -93,7 +93,7 @@ Mango
 Grapes
 ```
 
-You can modify the array size, data type, and the values according to your requirements. Let me know if you have any further questions!
+
 
 
 
