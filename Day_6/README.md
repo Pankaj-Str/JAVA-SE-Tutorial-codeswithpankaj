@@ -101,6 +101,7 @@ Grapes
 
 ----------------------------------------------------------------
 # Assignment Day 6 
+1. Write a Java program that takes user input for an array of integers and calculates the sum and average of the array elements.
 ## Project 1 (Basic)
 
 
