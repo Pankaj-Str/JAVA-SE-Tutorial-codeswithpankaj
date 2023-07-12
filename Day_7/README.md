@@ -1,1 +1,1 @@
-# Multidimensional Arrays in C
+# Multidimensional Arrays
