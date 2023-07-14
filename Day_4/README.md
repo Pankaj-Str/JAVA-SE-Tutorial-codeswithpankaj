@@ -1,4 +1,77 @@
-### Assignment Day 4
+# The `switch` statement
+
+The `switch` statement in Java is used for multi-way branching, allowing you to execute different blocks of code based on the value of an expression. It provides a more concise and readable alternative to multiple nested `if-else` statements. Here's the general syntax of a `switch` statement:
+
+```java
+switch (expression) {
+    case value1:
+        // Code to execute if expression matches value1
+        break;
+    case value2:
+        // Code to execute if expression matches value2
+        break;
+    case value3:
+        // Code to execute if expression matches value3
+        break;
+    // ...
+    default:
+        // Code to execute if expression doesn't match any case
+        break;
+}
+```
+
+Here's how the `switch` statement works:
+
+1. The `expression` is evaluated, and its value is compared against the values specified in each `case`.
+
+2. If the value of the `expression` matches a `case` value, the corresponding block of code is executed. Execution continues until a `break` statement is encountered, which exits the `switch` block.
+
+3. If no `case` values match the `expression`, the code inside the `default` block is executed. The `default` block is optional and acts as a catch-all case for unmatched values.
+
+4. The `break` statement is used to terminate the execution of a `case` block. Without it, execution would continue into the next `case` block. However, if you want multiple cases to execute the same block of code, you can omit the `break` statement.
+
+Here's an example to illustrate the usage of the `switch` statement:
+
+```java
+int dayOfWeek = 2;
+String dayName;
+
+switch (dayOfWeek) {
+    case 1:
+        dayName = "Monday";
+        break;
+    case 2:
+        dayName = "Tuesday";
+        break;
+    case 3:
+        dayName = "Wednesday";
+        break;
+    case 4:
+        dayName = "Thursday";
+        break;
+    case 5:
+        dayName = "Friday";
+        break;
+    default:
+        dayName = "Weekend";
+        break;
+}
+
+System.out.println("Today is " + dayName);
+```
+
+In this example, the `switch` statement matches the value of `dayOfWeek` against different cases. Since `dayOfWeek` has a value of `2`, the code inside the `case 2:` block is executed, assigning the string "Tuesday" to the `dayName` variable. Finally, the result is printed to the console.
+
+It's important to note that the `switch` statement can be used with `int`, `char`, `byte`, `short`, `String`, and `enum` types. Additionally, starting from Java 14, the `switch` statement supports enhanced `switch` expressions with a simplified syntax that allows returning a value directly.
+
+Remember to include the `break` statement to exit the `switch` block after executing the desired code to avoid falling through to the next case unintentionally.
+
+
+
+
+
+
+# Assignment Day 4
 
 1. Write a  Program to Make a Simple Calculator Using switch...case
 -------
