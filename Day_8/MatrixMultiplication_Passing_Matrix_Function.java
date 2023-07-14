@@ -2,7 +2,7 @@
 // p4n.in
 // codeswithpankaj.com
 
-public class MatrixMultiplication {
+public class MatrixMultiplication_Passing_Matrix_Function {
     public static void main(String[] args) {
         // Define the matrices
         int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
