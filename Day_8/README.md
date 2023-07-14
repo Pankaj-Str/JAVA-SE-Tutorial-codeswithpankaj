@@ -12,6 +12,9 @@ Here, we create a 2D array called `matrix` with 3 rows and 4 columns. The outerm
 
 To initialize or access elements in the array, we use the row and column indices. For example, `matrix[1][2]` refers to the element in the second row (index 1) and the third column (index 2) of the matrix.
 
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/1676b82f-562a-409e-b441-522161c509d8)
+
+
 To initialize values in the array, you can assign them individually:
 
 ```java
