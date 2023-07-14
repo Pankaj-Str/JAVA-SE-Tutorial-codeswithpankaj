@@ -1,4 +1,4 @@
-package Day03;
+
 
 public class ArithmeticOperators {
     public static void main(String[] args) {
