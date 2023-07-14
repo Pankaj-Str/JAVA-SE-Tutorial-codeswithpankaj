@@ -23,6 +23,9 @@ To initialize the array with values, you can use an array initializer, where you
 int[] numbers = {1, 2, 3, 4, 5};
 ```
 
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/537b105a-bb11-461c-a238-91b248bb5759)
+
+
 Accessing Array Elements:
 You can access individual elements of an array using their index. The index represents the position of the element within the array. The syntax to access an element is:
 
