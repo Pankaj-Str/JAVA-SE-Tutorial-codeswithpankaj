@@ -57,15 +57,15 @@ Overall, Java inheritance is a powerful mechanism for code reuse and building hi
 
 ##  there are several types of inheritance that can be used to establish relationships between classes. The main types of inheritance in Java are:
 
-1. Single inheritance: Java supports single inheritance, which means that a class can inherit from only one superclass. This establishes a "is-a" relationship between the classes, where the subclass is a specialized version of the superclass.
+**1. Single inheritance:** Java supports single inheritance, which means that a class can inherit from only one superclass. This establishes a "is-a" relationship between the classes, where the subclass is a specialized version of the superclass.
 
-2. Multilevel inheritance: In multilevel inheritance, a class extends another class, which in turn extends another class, and so on. This creates a chain of inheritance where each subclass inherits properties and behaviors from its immediate superclass. It allows for creating a hierarchy of classes.
+**2. Multilevel inheritance:** In multilevel inheritance, a class extends another class, which in turn extends another class, and so on. This creates a chain of inheritance where each subclass inherits properties and behaviors from its immediate superclass. It allows for creating a hierarchy of classes.
 
-3. Hierarchical inheritance: Hierarchical inheritance occurs when multiple classes inherit from a single superclass. In this type of inheritance, one superclass is extended by multiple subclasses, each of which can have its own additional properties and behaviors.
+**3. Hierarchical inheritance:** Hierarchical inheritance occurs when multiple classes inherit from a single superclass. In this type of inheritance, one superclass is extended by multiple subclasses, each of which can have its own additional properties and behaviors.
 
-4. Multiple inheritance (through interfaces): While Java doesn't support multiple inheritance of classes, it does support multiple inheritance of interfaces. An interface in Java can be implemented by multiple classes, allowing them to inherit multiple sets of methods declarations. This is known as multiple inheritance through interfaces.
+**4. Multiple inheritance (through interfaces):** While Java doesn't support multiple inheritance of classes, it does support multiple inheritance of interfaces. An interface in Java can be implemented by multiple classes, allowing them to inherit multiple sets of methods declarations. This is known as multiple inheritance through interfaces.
 
-5. Hybrid inheritance: Hybrid inheritance is a combination of multiple inheritance and hierarchical inheritance. It involves a mix of single and multiple inheritance, where classes inherit from multiple classes, and those classes can further be inherited by other subclasses.
+**5. Hybrid inheritance:** Hybrid inheritance is a combination of multiple inheritance and hierarchical inheritance. It involves a mix of single and multiple inheritance, where classes inherit from multiple classes, and those classes can further be inherited by other subclasses.
 
 -----------------------------
 
