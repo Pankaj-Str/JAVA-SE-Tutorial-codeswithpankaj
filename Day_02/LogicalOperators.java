@@ -10,16 +10,16 @@ public class LogicalOperators {
         //      F    |     T      =   F
         //      F    |     F      =   F
         System.out.println(56 < 90 && 676 <= 78 );
+        
         // or ||
-
-        // and
         // left side | right side = result
         //      T    |     T      =   T
         //      T    |     F      =   T
         //      F    |     T      =   T
         //      F    |     F      =   F
         System.out.println(56 < 90 || 676 <= 78 );
-        // not
+
+        // not !
         System.out.println(45 != 78 );
     }
 }
