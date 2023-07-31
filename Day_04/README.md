@@ -74,20 +74,32 @@ Remember to include the `break` statement to exit the `switch` block after execu
 # Assignment Day 4
 
 1. Write a  Program to Make a Simple Calculator Using switch...case
+
+```
+Enter Number 1 : 23
+Enter Number 2 : 2
+
+Select Operator + , - , x , / , %
+ +
+
+--- Your Result is + : 25       
+
+```
 -------
 ## 2. Password Checker 
 Example : <br><br>
-Set your password :<br>
-p4n@in<br>
-Enter your Password :<br> 
-p4n<br>
-wrong password ... try 2 more time out of 2<br>
-p4n@<br>
-wrong password ... try 1 more time 1<br>
-p4n@34 <br>
-wrong password ... try 0 more time 0<br><br>
-note : user select right password <br>
-then start MCQ EXAM...<br>
+```
+Set your password :
+p4n@in
+Enter your Password : 
+p4n
+wrong password ... try 2 more time out of 2
+p4n@
+wrong password ... try 1 more time 1
+p4n@34
+wrong password ... try 0 more time 0
+note : user select right password
+then start MCQ EXAM...
 
  
 1. Who invented Java Programming?
@@ -111,3 +123,4 @@ ask 2nd Question ...
 
 Select Answer 2 ... con..
 
+```
