@@ -1,6 +1,6 @@
 //@p4n.in
 // codeswithpankaj.com
-public class SingleArrayExample {
+public class SingleArrayExample{
     public static void main(String[] args) {
         // Declare an array of integers
         int[] numbers = new int[5];
@@ -14,6 +14,7 @@ public class SingleArrayExample {
 
         // Access and print array elements
         System.out.println("Array elements:");
+        
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
