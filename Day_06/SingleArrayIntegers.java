@@ -1,6 +1,6 @@
 //@p4n.in
 // codeswithpankaj.com
-public class SingleArrayExample{
+public class SingleArrayIntegers{
     public static void main(String[] args) {
         // Declare an array of integers
         int[] numbers = new int[5];
