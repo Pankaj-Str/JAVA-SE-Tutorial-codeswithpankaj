@@ -42,8 +42,44 @@ You can also use comparison operators like `==`, `!=`, `<`, `>`, `<=`, and `>=` 
 
 ###  Assignment Day 3
 1. Write a  Program to Check Whether a Number is Even or Odd (user input)
+
+```
+    output : 
+
+    Enter Number : 22
+
+    Your Number is : Even
+
+```
 2. Write a  Program to Check Whether an Alphabet is Vowel or Consonant(user input)
+
+```
+    output : 
+    
+    Enter Alphabet : a
+    A is Vowel
+
+```
 3. Write a  Program to Find the Largest Among Three Numbers(user input)
+
+```
+    Output :
+
+    Enter Number 1 : 90
+    Enter Number 2 : 91
+    Enter Number 3 : 92
+
+    Largest Number : 92
+
+```
 4. Write a  Program to Check Leap Year(user input)
+
+```
+    Enter year to check leap year ya not : 2023
+
+    YEAR 2023 is not Leap YEAR
+
+```
 5. Write a  Program to Check Whether a Number is Positive or Negative(user input)
+
 6. Write a  Program to Check Whether a Character is Alphabet or Not(user input)

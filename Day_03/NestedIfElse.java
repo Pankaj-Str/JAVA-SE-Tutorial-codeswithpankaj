@@ -1,14 +1,21 @@
+import java.util.Scanner;
 
-
-public class If_else2 {
+public class NestedIfElse{
 
 	public static void main(String[] args) {
 	
+		// create a scanner class object
+
+		Scanner sc = new Scanner(System.in);
 		
 		int num1, num2, num3;
-		num1 = 10;
-		num2 = 8;
-		num3 = 0;
+		
+		System.out.println("\n Enter Number 1 \n");
+		num1 = sc.nextInt();
+		System.out.println("\n Enter Number 2 \n");
+		num2 = sc.nextInt();
+		System.out.println("\n Enter Number 3 \n");
+		num3 = sc.nextInt();
 		
 		if(num1 < num2 && num1 < num3) {
 			
