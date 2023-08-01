@@ -1,4 +1,4 @@
-package July_31_2023;
+
 import  java.util.Scanner;
 import static java.lang.Character.toLowerCase;
 
