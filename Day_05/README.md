@@ -113,38 +113,36 @@ Loops provide a powerful mechanism for automating repetitive tasks and iterating
 
   ```
   4. Program to print half pyramid using alphabets<br>
-      ```
+  ```
       A
       B B
       C C C
       D D D D
       E E E E E
       
-      ```
+   ```
    5. Write a program that reads a set of integers, and then prints the sum of the even and odd integers.(noote : also find sum of the total number : )
 
-    ```
+   ```
+    Enter Start Loop Number : 1
+    Emter End Loop Number : 10
 
-        Enter Start Loop Number : 1
-        Emter End Loop Number : 10
-
-        Sum of the total Number = 55
-        Sum of the Even Number = 30
-        Sum of the Odd Number = 25
-
-    ```
+    Sum of the total Number = 55
+    Sum of the Even Number = 30
+    Sum of the Odd Number = 25
+   ```
 
    8. Write a program to print table : 
 
-    ```
-        Enter Print Table : 2
-        2 x 1 = 2
-        2 x 2 = 4
-        .
-        .
-        2 x 10 = 20
+   ```
+    Enter Print Table : 2
+    2 x 1 = 2
+    2 x 2 = 4
+    .
+    .
+    2 x 10 = 20
 
-    ```
+   ```
 
    9. Write a program to print following :<br>
        ![loopQuestion](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/84109b67-24b6-4d43-b27b-2b9adb1770fa)
