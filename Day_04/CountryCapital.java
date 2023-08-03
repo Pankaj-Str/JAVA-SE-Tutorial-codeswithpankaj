@@ -1,6 +1,6 @@
 import java.util.Scanner;;
 
-public class SwitchExample1{
+public class CountryCapital{
 
         public static void main(String[] args) {
 

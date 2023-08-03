@@ -1,6 +1,6 @@
 import java.util.Scanner;;
 
-public class SwitchExample{
+public class DayOfWeek{
 
         public static void main(String[] args) {
 
