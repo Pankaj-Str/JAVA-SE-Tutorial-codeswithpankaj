@@ -337,10 +337,7 @@ The conditional operator is a concise way to assign a value based on a condition
 
 # Assignment Day 2
 
-1. Write a  Program to Check Whether a Number is Even or Odd
-
-
-2. Age Calculator
+1. Age Calculator
 
 ```
       --- Date of Birth
@@ -359,8 +356,5 @@ The conditional operator is a concise way to assign a value based on a condition
       or 260 months 8 days
       or 1131 weeks 3 days
       or 7,920 days
-      or 190,080 hours
-      or 11,404,800 minutes
-      or 684,288,000 seconds
 
 ```

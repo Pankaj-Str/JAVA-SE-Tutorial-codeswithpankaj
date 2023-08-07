@@ -45,9 +45,7 @@ You can also use comparison operators like `==`, `!=`, `<`, `>`, `<=`, and `>=` 
 
 ```
     output : 
-
     Enter Number : 22
-
     Your Number is : Even
 
 ```
@@ -55,7 +53,6 @@ You can also use comparison operators like `==`, `!=`, `<`, `>`, `<=`, and `>=` 
 
 ```
     output : 
-    
     Enter Alphabet : a
     A is Vowel
 
@@ -64,7 +61,6 @@ You can also use comparison operators like `==`, `!=`, `<`, `>`, `<=`, and `>=` 
 
 ```
     Output :
-
     Enter Number 1 : 90
     Enter Number 2 : 91
     Enter Number 3 : 92

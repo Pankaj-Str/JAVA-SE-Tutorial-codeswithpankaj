@@ -1,6 +1,7 @@
+package Basic;
 
 
-public class Datatype {
+public class DatatypeRange {
 
 	public static void main(String[] args) {
 		
