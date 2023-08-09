@@ -75,7 +75,7 @@ Remember to include the `break` statement to exit the `switch` block after execu
 
 1. Write a  Program to Make a Simple Calculator Using switch...case
 
-```
+```java
 Enter Number 1 : 23
 Enter Number 2 : 2
 
@@ -89,7 +89,7 @@ Select Operator + , - , x , / , %
 2. Password Checker 
 
 Example : <br><br>
-    ```
+```java
     Set your password :
     p4n@in
     Enter your Password : 
@@ -128,7 +128,7 @@ Example : <br><br>
 
 3. Salary System -
    
-   ```
+```java
    -- input section
 
    Enter Employee Name = Joy
@@ -149,5 +149,5 @@ Example : <br><br>
    Final Pay Salary : 7,541.93548/-
    Date = March/2023
 
-   ```
+```
 
