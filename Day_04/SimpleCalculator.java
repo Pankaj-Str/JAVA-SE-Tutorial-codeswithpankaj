@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class SimpleCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = sc.nextInt();
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = sc.nextInt();
 
         System.out.println("Available operations:");
         System.out.println("1. Addition (+)");
@@ -20,34 +20,25 @@ public class SimpleCalculator {
         System.out.println("4. Division (/)");
 
         System.out.print("Enter your choice (1-4): ");
-        int choice = scanner.nextInt();
+        char choice = sc.next().charAt(0);
 
-        double result = 0;
+        int result = 0;
 
-        switch (choice) {
-            case 1:
-                result = num1 + num2;
-                System.out.println("The result of addition is: " + result);
-                break;
-            case 2:
-                result = num1 - num2;
-                System.out.println("The result of subtraction is: " + result);
-                break;
-            case 3:
-                result = num1 * num2;
-                System.out.println("The result of multiplication is: " + result);
-                break;
-            case 4:
-                if (num2 != 0) {
-                    result = num1 / num2;
-                    System.out.println("The result of division is: " + result);
-                } else {
-                    System.out.println("Error: Division by zero is not allowed.");
-                }
-                break;
-            default:
-                System.out.println("Invalid choice. Please select a number between 1 and 4.");
-                break;
+        switch(choice){
+             case '+' : result = num1 + num2;
+            break;
+             case '-' : result = num1 - num2;
+            break;
+             case '*' : result = num1 * num2;
+            break;
+             case '/' : result = num1 / num2;
+            break;
+            default : System.out.println("Select Only + , - , * , / ");
+            break;              
         }
+
+        System.out.println("Your Result is : = "+result);
+
+       
     }
 }

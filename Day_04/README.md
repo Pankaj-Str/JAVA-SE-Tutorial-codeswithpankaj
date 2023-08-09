@@ -86,41 +86,68 @@ Select Operator + , - , x , / , %
 
 ```
 -------
-## 2. Password Checker 
+2. Password Checker 
+
 Example : <br><br>
+    ```
+    Set your password :
+    p4n@in
+    Enter your Password : 
+    p4n
+    wrong password ... try 2 more time out of 2
+    p4n@
+    wrong password ... try 1 more time 1
+    p4n@34
+    wrong password ... try 0 more time 0
+    note : user select right password
+    then start MCQ EXAM...
+
+    
+    1. Who invented Java Programming?
+    1. ) Guido van Rossum
+    2. ) James Gosling
+    3. ) Dennis Ritchie
+    4. ) Bjarne Stroustrup
+
+    Select Answer 2
+
+    wrong answer [ Try Next year ] 
+
+    Note :if select Right Answer 
+    ask 2nd Question ...
+
+    2. Which component is used to compile, debug and execute the java programs?
+    1. ) JRE
+    2. ) JIT
+    3. ) JDK
+    4. ) JVM
+
+    Select Answer 2 ... con..
+
 ```
-Set your password :
-p4n@in
-Enter your Password : 
-p4n
-wrong password ... try 2 more time out of 2
-p4n@
-wrong password ... try 1 more time 1
-p4n@34
-wrong password ... try 0 more time 0
-note : user select right password
-then start MCQ EXAM...
 
- 
-1. Who invented Java Programming?
-1. ) Guido van Rossum
-2. ) James Gosling
-3. ) Dennis Ritchie
-4. ) Bjarne Stroustrup
+3. Salary System -
+   
+   ```
+   -- input section
 
-Select Answer 2
+   Enter Employee Name = Joy
+   Enter Employee ID = A001
+   Enter Employee Salary (Monthly) = 10000/-
+   Enter Leave (Days) = 7
+   TDS % = 2
+   Month = 3
+   year = 2023  
 
-wrong answer [ Try Next year ] 
+   -- out section
+   Name : Joy
+   EMP ID : A001
+   Monthly Salary : 10,000/-
+   CTC (Yearly Salary ) : 120,000/-
+   Leave Amount : 2,258.06452/-
+   TDS Amount :  200/-
+   Final Pay Salary : 7,541.93548/-
+   Date = March/2023
 
-Note :if select Right Answer 
-ask 2nd Question ...
+   ```
 
-2. Which component is used to compile, debug and execute the java programs?
-1. ) JRE
-2. ) JIT
-3. ) JDK
-4. ) JVM
-
-Select Answer 2 ... con..
-
-```
