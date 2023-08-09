@@ -105,17 +105,47 @@ Grapes
 ----------------------------------------------------------------
 # Assignment Day 6 
 1. Write a Java program that takes user input for an array of integers and calculates the sum and average of the array elements.
-   
-2. Project 1 (Basic)
 
+2. Billing System (Basic)
 
-![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/874e0058-7ca1-459d-ad2f-e48d12c4299c)
+```
+    -- User input section
+Enter Product List Size : 4
+Enter Product 1 -
+Samosa
+Enter Product 2 -
+Kachori
+Enter Product 3 -
+Fafda
+Enter Product 4 -
+Jalebi
 
+Enter Samosa Price :
+300/-
+Enter Kachori Price :
+100/-
+Enter Fafda Price :
+100/-
+Enter Jalebi Price :
+200/-
 
+Do You Want to add GST [Y/N]
+[note : if user select `N` Print bill without GST]
+[Note User select yes `Y`]
+Enter GST % = 18
+-------Out put -------
 
-3. Project 2 (Advance)
-
-![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/ad467a2d-a39c-4eb4-8594-68267c88034a)
+1. Samosa = 300/-
+2. Kachori = 100/-
+3. Fafda = 100/-
+4. Jalebi = 200/-
+-------------------
+Total = 700
+GST = 18%
+-------------------
+Final Total = 826/-
+-------------------
+```
 
 
 
