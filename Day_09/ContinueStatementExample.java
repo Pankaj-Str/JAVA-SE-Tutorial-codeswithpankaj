@@ -2,7 +2,6 @@
 // p4n.in
 // codeswithpankaj.com
 
-
 public class ContinueStatementExample {
     public static void main(String[] args) {
         // Iterate through numbers from 1 to 10
