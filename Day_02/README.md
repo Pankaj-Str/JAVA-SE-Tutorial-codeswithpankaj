@@ -339,7 +339,7 @@ The conditional operator is a concise way to assign a value based on a condition
 
 1. Age Calculator
 
-```
+```java
       --- Date of Birth
       Enter Birth Year : 2001
       Enter Birth Month : 11
