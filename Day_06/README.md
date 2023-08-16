@@ -25,7 +25,6 @@ int[] numbers = {1, 2, 3, 4, 5};
 
 ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/537b105a-bb11-461c-a238-91b248bb5759)
 
-
 Accessing Array Elements:
 You can access individual elements of an array using their index. The index represents the position of the element within the array. The syntax to access an element is:
 
@@ -40,6 +39,8 @@ int secondNumber = numbers[1];
 ```
 
 Note that the index starts from 0, so `numbers[1]` refers to the second element.
+
+![7-2](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/ae8ab021-9d8a-46f8-84c5-ad21f25c7e38)
 
 Iterating over an Array:
 You can use loops, such as `for` or `while`, to iterate over the elements of an array. The most common approach is to use a `for` loop with an index variable that ranges from 0 to `arrayName.length - 1`. Here's an example:
