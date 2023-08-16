@@ -13,7 +13,9 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
 
    The `initialization` statement is executed only once at the beginning. The `condition` is checked before each iteration, and if it evaluates to `true`, the code block is executed. After each iteration, the `iteration` statement is executed, and then the condition is checked again. The loop continues until the condition evaluates to `false`.
 
-   ![Python-for-loop](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/928083e5-8133-42a8-b9a1-70b08972530f)
+
+  ![Screenshot 2023-08-16 at 6 31 29 PM](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/66f69ac7-140e-46ba-bad9-e8e5e069e0b4)
+
 
 
 
