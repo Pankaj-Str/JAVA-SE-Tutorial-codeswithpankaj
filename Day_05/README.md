@@ -13,7 +13,9 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
 
    The `initialization` statement is executed only once at the beginning. The `condition` is checked before each iteration, and if it evaluates to `true`, the code block is executed. After each iteration, the `iteration` statement is executed, and then the condition is checked again. The loop continues until the condition evaluates to `false`.
 
-   ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/c92fad6e-d7a1-40c0-81c4-4d2db70cc3f6)
+   ![Python-for-loop](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/928083e5-8133-42a8-b9a1-70b08972530f)
+
+
 
 
 
@@ -28,7 +30,8 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
 
    The `condition` is evaluated before each iteration. If it evaluates to `true`, the code block is executed. If it evaluates to `false` initially, the code block is never executed.
 
-   ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/bcb4f2fd-4541-43eb-a5ae-a7f339dcb2d2)
+  ![Python-while-loop](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/bfa7a5d3-402f-4130-9280-3a81e17d6a15)
+
 
 
 
@@ -43,8 +46,7 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
 
    The code block is executed first, and then the `condition` is checked. If the condition evaluates to `true`, the loop continues for subsequent iterations. If the condition evaluates to `false`, the loop terminates.
 
-   ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/aa1c5dff-5d3a-461f-9543-f77e56b82115)
-
+   ![while-loop](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/f81d2bb6-fbf6-452a-b568-c32bc6876170)
 
 
 Loop control statements like `break` and `continue` can be used to control the flow of execution within loops. `break` is used to exit the loop completely, while `continue` skips the rest of the current iteration and proceeds to the next iteration.
