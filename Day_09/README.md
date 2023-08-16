@@ -70,3 +70,55 @@ The `continue` statement is often used when you want to skip certain iterations 
 It's important to note that when the `continue` statement is encountered, the loop's control flow immediately jumps to the next iteration, skipping any code that follows the `continue` statement within that iteration.
 
 The `continue` statement can be used with any loop, such as `for`, `while`, and `do-while`, to control the flow and selectively skip iterations based on your requirements.
+
+
+```
+-- User input section
+Enter Product 1 -
+Do you want to add - More [Y/N]
+Y
+Samosa
+Enter Product 2 -
+Do you want to add - More [Y/N]
+Y
+Kachori
+Enter Product 3 -
+Do you want to add - More [Y/N]
+Y
+Fafda
+Enter Product 4 -
+Do you want to add - More [Y/N]
+Y
+Jalebi
+Do you want to add - More [Y/N]
+N
+Enter Samosa Price :
+300/-
+Enter Kachori Price :
+100/-
+Enter Fafda Price :
+100/-
+Enter Jalebi Price :
+200/-
+
+Do You Want to add GST [Y/N]
+[note : if user select `N` Print bill without GST]
+[Note User select yes `Y`]
+Enter GST % = 18
+-------Out put -------
+
+1. Samosa = 300/-
+2. Kachori = 100/-
+3. Fafda = 100/-
+4. Jalebi = 200/-
+-------------------
+Total = 700
+GST = 18%
+-------------------
+Final Total = 826/-
+-------------------
+
+```
+
+
+
