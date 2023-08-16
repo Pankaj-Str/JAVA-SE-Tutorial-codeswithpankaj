@@ -1,25 +1,20 @@
-public class Function1 {
-    // Basic
-    static void website(){
-        System.out.println("www.codeswithpankaj.com");
-    } 
+package Date_16_8_2023;
 
-    // Arg.
-    static void info(String website){
-        System.out.println(website);
+public class Function1{
+    // without arg. and without return type
+    // basic
+    // methad...
+    void info1(){
+        System.out.println("welcome....xxxxxxx");
     }
-
-    static void add(int a,int b){
-        int result = a+b;
-        System.out.println("this is result : "+result);
-    }
-
     public static void main(String[] args) {
-        website();
-        info("p4n.in");
-        info("codeswithpankaj");
-        add(45, 78);
-        add(45, 455);
+
+        // calling
+        // with object
+       // classname objectname = new classname();
+        Function1 obj = new Function1();
+        obj.info1();
+        obj.info1();
+
     }
-    
 }
