@@ -20,7 +20,6 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
 
 
 
-
 3. `while` Loop:
    The `while` loop is used when the number of iterations is not known beforehand and depends on a condition. It repeatedly executes the code block as long as the condition is `true`.
 
@@ -33,7 +32,6 @@ In Java, loops are used to repeatedly execute a block of code until a certain co
    The `condition` is evaluated before each iteration. If it evaluates to `true`, the code block is executed. If it evaluates to `false` initially, the code block is never executed.
 
   ![Python-while-loop](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/bfa7a5d3-402f-4130-9280-3a81e17d6a15)
-
 
 
 
