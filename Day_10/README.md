@@ -65,3 +65,50 @@ classes and objects are fundamental concepts that form the basis of object-orien
    In this example, we create two objects (`person1` and `person2`) of the `Person` class using the `new` keyword. We pass the `name` and `age` values as arguments to the constructor when creating the objects. We then call the `introduce()` method on each object to print their introductions.
 
 Objects provide a way to model and represent real-world entities or concepts in code. By defining classes and creating objects, you can organize your code into reusable and logical units. Each object maintains its own state and behavior, allowing you to work with multiple instances of the same class independently.
+
+
+
+
+# Question - 1
+
+```yml
+
+* Using Class Object
+--- input Section -------
+Enter Client List Size : 3
+
+Client Name 1 : Joy
+Client Name 2 : Suraj
+Client Name 3 : Sonu
+
+Enter Joy List Size : 3
+Client Joy Product Name 1 : Cloth
+Client Joy Product Name 2 : Books
+Client Joy Product Name 3 : Pen
+
+Enter Suraj List Size : 3
+Client Suraj Product Name 1 : Toy
+Client Suraj Product Name 2 : Samosa
+Client Suraj Product Name 3 : Fafada
+
+Enter Sonu List Size : 2
+Client Sonu Product Name 1 : Pav
+Client Sonu Product Name 2 : Dhokla
+
+---- OutPut --------
+Product List of Joy
+1 Cloth
+2 Books
+3 Pen
+Product List of Suraj
+1 Toy
+2 Somosa
+3 Fafada
+Product List of Sonu
+1 Pav
+2 Dhokla
+```
+
+
+
+
