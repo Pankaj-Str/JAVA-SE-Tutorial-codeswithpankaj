@@ -74,10 +74,39 @@ In Java, variables and literals play an essential role in storing and manipulati
 Variables and literals work together to store and manipulate data in Java programs. Variables provide named storage locations, while literals represent specific values that can be assigned to variables or used directly in code.
 
 
-### Assignment Day 1 
-1. Write a  Program to Print an Integer 
+# Assignment
+1. Write a  Program to Print an Integer
+```java
+- output
+Enter Integer : 3456
+Your Number : 3456
+``` 
 2. Write a  Program to Add Two Integers
+```java
+- output
+Enter Integer 1 : 4
+Enter Integer 2 : 8
+Your Add Number Result : 12
+``` 
 3. Write a  Program to Multiply two Floating Point Numbers
+```java
+- output
+Enter Float 1 : 4.1
+Enter Float 2 : 8.2
+Your Multiply Number Result : 33.62
+``` 
 4. Write a  Program to Find ASCII Value of a character
-5. Write a  Program to Compute Quotient and Remainder
-6. Write a  Program to Swap Two Numbers
+link - https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+```java
+- output
+Enter character : B
+Your ASCII Value = 66
+``` 
+5. Write a  Program to Swap Two Numbers
+```java
+- output
+Enter Number 1 : 23
+Enter Number 2 : 34
+Number 1  : 34
+Number 2  : 23
+```

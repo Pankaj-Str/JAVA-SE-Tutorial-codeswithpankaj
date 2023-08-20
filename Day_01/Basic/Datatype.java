@@ -6,7 +6,6 @@ public class Datatype {
         //https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
         
 
-
         byte b = 'L';
 
         System.out.println("\n byte = \n"+b);

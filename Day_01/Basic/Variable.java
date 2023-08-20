@@ -4,11 +4,15 @@ class Variable{
 
     public static void main(String[] args) {
         
-        //code ....
-
         //DataType VariableName = Value;
 
-        int Number = 23;
+        int age = 12;
+
+        System.out.println(age);
+
+        age = 23;
+
+        System.out.println(age);
 
 
     }
