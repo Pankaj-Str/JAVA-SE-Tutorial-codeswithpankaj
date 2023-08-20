@@ -1,3 +1,4 @@
+package Assignments;
 //Write a Program in java to Multiply two Floating Point Numbers
 
 import java.util.Scanner;

@@ -74,7 +74,7 @@ In Java, variables and literals play an essential role in storing and manipulati
 Variables and literals work together to store and manipulate data in Java programs. Variables provide named storage locations, while literals represent specific values that can be assigned to variables or used directly in code.
 
 
-# Assignment
+# Assignments Day 1
 1. Write a  Program to Print an Integer
 ```java
 - output

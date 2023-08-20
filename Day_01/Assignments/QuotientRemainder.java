@@ -1,10 +1,10 @@
-//Write a Program to Swap Two Numbers
-//https://www.codeswithpankaj.com
-//https://www.p4n.in
+package Assignments;
+//Write a Program to Compute Quotient and Remainder
+// https://www.codeswithpankaj.com/
 
 import java.util.Scanner;
 
-public class AssignmentSolution6 {
+public class QuotientRemainder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

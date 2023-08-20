@@ -1,3 +1,4 @@
+package Assignments;
 class Basic{
 
 	public static void main(String[] arg){

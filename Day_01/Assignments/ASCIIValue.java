@@ -1,3 +1,4 @@
+package Assignments;
 //Write a Program to Find ASCII Value of a character
 //www.codeswithpankaj.com
 import java.util.Scanner;

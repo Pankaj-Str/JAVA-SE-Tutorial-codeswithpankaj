@@ -1,3 +1,4 @@
+package Assignments;
 // Write a Program in java to Print an Integer (Entered by the User)
 import java.util.Scanner;
 
