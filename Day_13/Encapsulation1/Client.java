@@ -1,14 +1,25 @@
-class Clinet{
+class Clients{
 
-    String ClinetName;
+    String ClientName;
     long Mobile;
 
-    void SetClinetName(String ClinetName){
-        this.ClinetName = ClinetName;
+    void SetClientName(String ClientName){
+        this.ClientName = ClientName;
     }
 
-    void SetMobile(int Mobile){
+    void SetMobile(long Mobile){
         this.Mobile = Mobile;
     }
+
+    long getMobile(){
+        return Mobile;
+    }
+
+    String getClientName(){
+
+        return ClientName;
+
+    }
+
 
 } 
