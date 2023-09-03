@@ -1,25 +1,13 @@
 package Day_09;
 
 public class Methods {
-
-    // basic function 
-
-    static void web(){
-        System.out.println("www.codeswithpankaj.com");
+    void info(){
+        System.out.println("codeswithpankaj");
     }
 
-    // with arg.(peramiter)
-
-    static void info(String website){
-        System.out.println("Website Name "+website);
+    public static void main(String[] arg){
+        //className ObjectName = new ClassName();
+        Methods obj = new Methods();
+        obj.info();
     }
-    
-
-    public static void main(String[] args) {
-        web();
-        web();
-        info("@p4n.in");
-        info("@codeswithpankaj.com");
-    }
-    
 }
