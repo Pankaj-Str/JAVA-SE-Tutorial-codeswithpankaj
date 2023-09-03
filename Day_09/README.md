@@ -1,3 +1,82 @@
+# Methods
+
+```yaml
+- Non Return type and Non Arguments 
+- Non Return type and With Arguments 
+- With Return type and Non Arguments 
+- With Return type and With Arguments 
+```
+
+Here are examples of Java methods for each of the specified cases:
+
+1. Non-Return Type and Non-Arguments:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        // Calling a method with no return type and no arguments
+        printHello();
+    }
+
+    public static void printHello() {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+2. Non-Return Type and With Arguments:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        // Calling a method with no return type and with arguments
+        printMessage("Java is fun!");
+    }
+
+    public static void printMessage(String message) {
+        System.out.println("Message: " + message);
+    }
+}
+```
+
+3. With Return Type and Non-Arguments:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        // Calling a method with a return type and no arguments
+        int result = generateRandomNumber();
+        System.out.println("Random Number: " + result);
+    }
+
+    public static int generateRandomNumber() {
+        // Generate and return a random number between 1 and 100
+        return (int) (Math.random() * 100) + 1;
+    }
+}
+```
+
+4. With Return Type and With Arguments:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        // Calling a method with a return type and with arguments
+        int sum = addNumbers(5, 7);
+        System.out.println("Sum: " + sum);
+    }
+
+    public static int addNumbers(int num1, int num2) {
+        // Calculate the sum of two numbers and return the result
+        return num1 + num2;
+    }
+}
+```
+
+
+
+
+
 # `break` statement
 
 the `break` statement is used to terminate the execution of a loop or a switch statement. It allows you to prematurely exit a loop or switch block before the normal completion of its iterations or cases. Here's how the `break` statement is used:
