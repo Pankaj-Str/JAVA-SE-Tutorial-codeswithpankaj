@@ -1,98 +1,104 @@
-# Methods
+# Java Constructor
 
-Methods  are blocks of code that perform specific tasks or computations. They are used to organize and encapsulate functionality within a class. Methods can have input parameters (arguments) and can also return a value.
-
-Here's a breakdown of the components of a Java method:
-
-1. Method Signature: The method signature consists of the method's name and parameter list. It defines the method's unique identifier within the class. For example: `public static int sum(int num1, int num2)`. The method name is `sum`, and it takes two `int` parameters, `num1` and `num2`.
-
-2. Method Return Type: The return type specifies the type of value that the method returns, or `void` if the method does not return anything. In the example above, the return type is `int`, indicating that the method returns an integer value.
-
-3. Method Parameters: Parameters are variables declared within the parentheses of the method signature. They allow you to pass values into the method. In the `sum` method example, `num1` and `num2` are the parameters of type `int`.
-
-4. Method Body: The method body is enclosed within curly braces `{}`. It contains the actual code that is executed when the method is called. This code can perform calculations, manipulate data, or perform any other desired operations.
-
-5. Return Statement: If a method has a return type other than `void`, it must include a `return` statement that specifies the value to be returned. The `return` statement exits the method and sends the value back to the caller. In the `sum` method example, the `return` statement `return num1 + num2;` calculates the sum of `num1` and `num2` and returns the result.
-
-Here's an example of a simple method that calculates the factorial of a number:
+Java constructor example that demonstrates a basic usage of constructors:
 
 ```java
-public static int factorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;
-    } else {
-        return n * factorial(n - 1);
+public class cwp {
+
+    // Instance variables
+    private String message;
+
+    // Constructor with a single parameter
+    public cwp(String initialMessage) {
+        message = initialMessage;
+    }
+
+    // Method to display the message
+    public void displayMessage() {
+        System.out.println("Message: " + message);
+    }
+
+    public static void main(String[] args) {
+        // Create an object using the constructor
+        cwp p4n = new cwp("Hello, Constructors!");
+
+        // Call the displayMessage method to show the message
+        p4n.displayMessage();
     }
 }
 ```
 
-In this method, if the input `n` is 0 or 1, the method immediately returns 1. Otherwise, it recursively calls itself with `n - 1` as the argument and multiplies the result by `n`. This continues until the base case is reached (when `n` is 0 or 1), and the result is returned.
+In this example:
 
-Methods allow you to modularize your code, improve readability, and reuse functionality. By breaking down complex tasks into smaller, manageable methods, you can create more maintainable and organized code.
+1. We have a class called `cwp`.
 
-## methods can be categorized into different types based on their characteristics and behavior. Here are some common types of methods in Java:
+2. Inside the class, we define an instance variable `message` to store a message.
 
-1. Instance Methods: Instance methods are associated with an instance of a class and can access instance variables and other instance methods. They are called on an object of the class using the dot (`.`) operator. Instance methods are typically used to perform operations specific to an instance of the class.
+3. We create a constructor that takes a single parameter `initialMessage`. This constructor initializes the `message` instance variable with the value provided as an argument.
 
-```java
-public class MyClass {
-    public void instanceMethod() {
-        // Method body
-    }
-}
+4. We define a method `displayMessage()` that prints the value of the `message` instance variable.
 
-// Calling an instance method
-MyClass obj = new MyClass();
-obj.instanceMethod();
+5. In the `main` method, we create an instance of the `cwp` class using the constructor and pass the message "Hello, Constructors!" as an argument.
+
+6. Finally, we call the `displayMessage()` method on the created object to display the message.
+
+When you run this Java program, it will output:
+
+```
+Message: Hello, Constructors!
 ```
 
-2. Static Methods: Static methods belong to the class itself rather than an instance of the class. They can be accessed directly through the class name without creating an object. Static methods cannot access instance variables or instance methods directly, but they can access other static variables or methods.
+This demonstrates the use of a constructor to initialize the state of an object when it is created.
+
+### Example 02:
 
 ```java
-public class MathUtils {
-    public static int sum(int a, int b) {
-        return a + b;
+public class codeswithpankaj {
+    // Instance variables
+    private String courseName;
+    private int courseDuration;
+
+    // Constructor with two parameters
+    public codeswithpankaj(String name, int duration) {
+        courseName = name;
+        courseDuration = duration;
+    }
+
+    // Method to display course details
+    public void displayCourseDetails() {
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Course Duration (in weeks): " + courseDuration);
+    }
+
+    public static void main(String[] args) {
+        // Create an object using the constructor
+        codeswithpankaj course = new codeswithpankaj("Java Programming", 12);
+
+        // Call the displayCourseDetails method to show the course details
+        course.displayCourseDetails();
     }
 }
-
-// Calling a static method
-int result = MathUtils.sum(3, 5);
 ```
 
-3. Constructor Methods: Constructors are special methods used to initialize objects of a class. They have the same name as the class and do not have a return type (not even `void`). Constructors are called when an object is created using the `new` keyword and can be used to set initial values for the object's instance variables.
+In this example:
 
-```java
-public class Person {
-    private String name;
+1. We have a class named `codeswithpankaj`.
 
-    public Person(String name) {
-        this.name = name;
-    }
-}
+2. Inside the class, we define two instance variables: `courseName` to store the name of the course and `courseDuration` to store the duration of the course in weeks.
 
-// Creating an object and calling the constructor
-Person person = new Person("John");
+3. We create a constructor that takes two parameters: `name` (for the course name) and `duration` (for the course duration). This constructor initializes the instance variables with the values provided as arguments.
+
+4. We define a method `displayCourseDetails()` that prints the course name and duration.
+
+5. In the `main` method, we create an instance of the `codeswithpankaj` class using the constructor and pass "Java Programming" as the course name and 12 as the course duration.
+
+6. Finally, we call the `displayCourseDetails()` method on the created object to display the course details.
+
+When you run this Java program, it will output:
+
+```
+Course Name: Java Programming
+Course Duration (in weeks): 12
 ```
 
-4. Getter and Setter Methods: Getter methods (also known as accessor methods) and setter methods (also known as mutator methods) are used to retrieve and modify the values of instance variables, respectively. They provide encapsulated access to the object's properties and follow the naming convention of `getVariableName()` and `setVariableName()`.
-
-```java
-public class Person {
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-}
-
-// Using getter and setter methods
-Person person = new Person();
-person.setName("John");
-String name = person.getName();
-```
-
-These are some common types of methods in Java. Each type serves a different purpose and provides specific functionality to help organize and manipulate data within a class.
+This demonstrates the use of a constructor to initialize the state of an object of the `codeswithpankaj` class.
