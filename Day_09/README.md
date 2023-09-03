@@ -1,5 +1,41 @@
 # Methods
 
+Example of how to define and use a simple method in Java:
+
+```java
+public class Example {
+
+    // Define a method named "addNumbers" that takes two integers as parameters
+    public static int addNumbers(int num1, int num2) {
+        int sum = num1 + num2;
+        return sum; // Return the result of adding num1 and num2
+    }
+
+    public static void main(String[] args) {
+        // Call the "addNumbers" method and store the result in a variable
+        int result = addNumbers(5, 7);
+
+        // Print the result
+        System.out.println("The sum of 5 and 7 is: " + result);
+    }
+}
+```
+
+In this example:
+
+1. We define a class called "Example."
+2. Inside the class, we define a method named "addNumbers" that takes two integer parameters, "num1" and "num2."
+3. Within the method, we calculate the sum of "num1" and "num2" and store it in the "sum" variable.
+4. We use the "return" statement to send the result back to the caller.
+5. In the "main" method, we call the "addNumbers" method with the arguments 5 and 7 and store the result in the "result" variable.
+6. Finally, we print the result to the console.
+
+When you run this Java program, it will output:
+
+```
+The sum of 5 and 7 is: 12
+```
+# Type of Methods
 ```yaml
 - Non Return type and Non Arguments 
 - Non Return type and With Arguments 
@@ -72,6 +108,7 @@ public class Example {
     }
 }
 ```
+
 
 
 
