@@ -93,5 +93,19 @@ In this example, we create a `LinkedList` of strings, add elements, access eleme
 |iterator()|	returns an iterator to iterate over LinkedList|
 
 
+## LinkedList as Deque and Queue
+
+|Methods|	Descriptions|
+|---------|---------|
+|addFirst()	|adds the specified element at the beginning of the linked list|
+|addLast()	|adds the specified element at the end of the linked list|
+|getFirst()	|returns the first element|
+|getLast()	|returns the last element|
+|removeFirst()	|removes the first element|
+|removeLast()	|removes the last element|
+|peek()	|returns the first element (head) of the linked list|
+|poll()	|returns and removes the first element from the linked list|
+|offer()|	adds the specified element at the end of the linked list|
+
 
 
