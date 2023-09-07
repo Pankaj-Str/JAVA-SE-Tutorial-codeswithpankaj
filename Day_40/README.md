@@ -92,3 +92,6 @@ In this example, we create a `LinkedList` of strings, add elements, access eleme
 |clear()	|removes all the elements of the LinkedList|
 |iterator()|	returns an iterator to iterate over LinkedList|
 
+
+
+
