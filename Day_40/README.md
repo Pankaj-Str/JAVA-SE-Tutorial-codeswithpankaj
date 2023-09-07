@@ -82,3 +82,13 @@ public class LinkedListExample {
 
 In this example, we create a `LinkedList` of strings, add elements, access elements, remove elements, and iterate through the list. `LinkedList` provides efficient operations for adding and removing elements at both the beginning and end of the list, making it suitable for certain use cases like implementing queues and double-ended queues.
 
+
+## Other Methods
+| Methods	| Description|
+|-----|---|
+|contains()	|checks if the LinkedList contains the element|
+|indexOf()|	returns the index of the first occurrence of the element|
+|lastIndexOf()|	returns the index of the last occurrence of the element|
+|clear()	|removes all the elements of the LinkedList|
+|iterator()|	returns an iterator to iterate over LinkedList|
+
