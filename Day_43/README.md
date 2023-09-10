@@ -3,6 +3,49 @@
 
 A `LinkedHashMap` in Java is a class that extends the functionality of a regular `HashMap` by maintaining a predictable order of elements. In a standard `HashMap`, the order of elements is not guaranteed, but in a `LinkedHashMap`, the elements are stored in the order they were inserted or in a specific order based on access. This predictable order can be useful in various scenarios where the order of elements matters.
 
+```scss
+  +-------------------+
+  |   LinkedHashMap  |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |   HashMap         |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |   AbstractMap     |
+  +-------------------+
+          |
+          |  Implements
+          |
+  +-------------------+
+  |        Map        |
+  +-------------------+
+          |
+          |  Methods
+          |
+  +-------------------+
+  | - put(K key, V value)             |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)              |
+  | - clear()                         |
+  | - get(Object key)                 |
+  | - containsKey(Object key)         |
+  | - containsValue(Object value)     |
+  | - size()                          |
+  | - isEmpty()                       |
+  | - keySet()                        |
+  | - values()                        |
+  | - entrySet()                      |
+  +-----------------------------------+
+
+
+```
+
 Here are some key features and characteristics of a `LinkedHashMap`:
 
 1. **Order-Preserving**: `LinkedHashMap` maintains the order of elements based on their insertion order (insertion-order mode) or their access order (access-order mode). In access-order mode, elements are reordered based on their most recent access.
