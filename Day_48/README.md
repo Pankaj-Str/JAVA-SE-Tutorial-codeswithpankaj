@@ -2,7 +2,66 @@
 
 A TreeMap in Java is a part of the Java Collections Framework and is a NavigableMap implementation that uses a Red-Black tree as its underlying data structure. It is a sorted map that maintains its elements in ascending order based on the keys. This means that the keys in a TreeMap are automatically sorted, and any operation that requires a sorted order, such as iteration or finding elements within a specific range, can be performed efficiently.
 
-![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/03237edf-6b89-4390-93c4-4cf406f306f2)
+
+
+```
+  +---------------+
+  |   TreeMap     |
+  +---------------+
+          |
+          |  Extends
+          |
+  +---------------+
+  |   AbstractMap |
+  +---------------+
+          |
+          |  Implements
+          |
+  +---------------+
+  |    NavigableMap |
+  +---------------+
+          |
+          |  Implements
+          |
+  +---------------+
+  |      SortedMap |
+  +---------------+
+          |
+          |  Implements
+          |
+  +---------------+
+  |       Map     |
+  +---------------+
+          |
+          |  Methods
+          |
+  +---------------+
+  | - put(K key, V value)         |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)          |
+  | - clear()                     |
+  | - get(Object key)             |
+  | - containsKey(Object key)     |
+  | - containsValue(Object value) |
+  | - size()                      |
+  | - isEmpty()                   |
+  | - keySet()                    |
+  | - values()                    |
+  | - entrySet()                  |
+  | - firstKey()                  |
+  | - lastKey()                   |
+  | - ceilingKey(K key)           |
+  | - floorKey(K key)             |
+  | - higherKey(K key)            |
+  | - lowerKey(K key)             |
+  | - subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) |
+  | - headMap(K toKey, boolean inclusive) |
+  | - tailMap(K fromKey, boolean inclusive) |
+  | - comparator()                |
+  +-------------------------------+
+```
+
+
 
 
 Here are some key points and characteristics of a Java TreeMap:
