@@ -1,5 +1,35 @@
 # Java Collections Framework
 
+```scss
+
++------------------------+
+|  Java Collections API  |
++------------------------+
+         |
+         |  Interfaces
+         |
++------------------------+
+|      Collection        |
+|   /   |   |   \        |
+| List  Set  Queue  Map  |
+|     /    |   |        /   \
+|  ArrayList  HashSet  HashMap
+|  LinkedList LinkedHashSet
+|               TreeSet
+|               PriorityQueue
+|                  /
+|               TreeMap
+|                  /
+|         LinkedHashMap
+|                  /
+|         EnumMap
+|         WeakHashMap
+|         IdentityHashMap
++------------------------+
+
+
+```
+
 The Java Collections Framework is a built-in collection of classes and interfaces in Java that provides a comprehensive way to work with collections of objects. It includes data structures and algorithms for managing and manipulating groups of objects. Some key components of the Java Collections Framework include:
 
 1. Interfaces: Interfaces like List, Set, and Map define common behaviors for collections, allowing for flexibility in implementing different data structures.
