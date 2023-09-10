@@ -91,6 +91,7 @@ public class StackExample {
     }
 }
 ```
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/2dbf3e38-c9b5-4e18-bb7b-289dfaf8c30a)
 
 In this example:
 
