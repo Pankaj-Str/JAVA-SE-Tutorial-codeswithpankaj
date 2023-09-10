@@ -5,7 +5,48 @@ The `BlockingQueue` interface in Java is a part of the `java.util.concurrent` pa
 ![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/b5872da8-1c47-4923-b005-9848b62dce24)
 
 
-![1 Pi6Ejc1yrwWdTvI05hFLVA](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/1c0409fa-2e61-45bf-84eb-1b1ea637cf4b)
+```scss
+  +-------------------+
+  |   BlockingQueue  |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |    Queue          |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |      Collection   |
+  +-------------------+
+          |
+          |  Methods
+          |
+  +-------------------+
+  | - add(E e)         |
+  | - offer(E e)       |
+  | - put(E e)         |
+  | - remove(Object o) |
+  | - poll()           |
+  | - take()           |
+  | - peek()           |
+  | - size()           |
+  | - isEmpty()        |
+  | - contains(Object o) |
+  | - clear()          |
+  | - iterator()       |
+  +-------------------+
+  |  Blocking Methods |
+  +-------------------+
+  | - offer(E e, long timeout, TimeUnit unit) |
+  | - poll(long timeout, TimeUnit unit)       |
+  | - drainTo(Collection<? super E> c, int maxElements) |
+  +-------------------+
+
+
+```
 
 
 
