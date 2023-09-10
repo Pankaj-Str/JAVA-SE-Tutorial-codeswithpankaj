@@ -6,6 +6,44 @@
 
 An `EnumMap` in Java is a specialized implementation of the `Map` interface that is designed to work exclusively with enum keys. It is highly efficient and provides performance benefits when working with enums as keys. Enum maps are ordered according to the natural order of the keys (the order in which the enum constants are declared).
 
+```scss
+  +-----------------+
+  |     EnumMap     |
+  +-----------------+
+          |
+          |  Extends
+          |
+  +-----------------+
+  |   AbstractMap   |
+  +-----------------+
+          |
+          |  Implements
+          |
+  +-----------------+
+  |     Map         |
+  +-----------------+
+          |
+          |  Methods
+          |
+  +-----------------+
+  | - put(K key, V value)          |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)           |
+  | - clear()                      |
+  | - get(Object key)              |
+  | - containsKey(Object key)      |
+  | - containsValue(Object value)  |
+  | - size()                       |
+  | - isEmpty()                    |
+  | - keySet()                     |
+  | - values()                     |
+  | - entrySet()                   |
+  | - ordinal(K key)               |
+  | - compareTo(K key1, K key2)    |
+  +-------------------------------+
+
+```
+
 ### Creating an EnumMap
 
 To create an `EnumMap`, you specify the enum type as its key type during construction. Here's how you can create an `EnumMap` for an enum type called `Day`:
