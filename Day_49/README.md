@@ -2,6 +2,55 @@
 
 The `ConcurrentMap` interface in Java is a subinterface of the `java.util.Map` interface that defines a map that can be safely accessed and modified by multiple threads concurrently. It provides methods for performing thread-safe operations on the map, making it suitable for concurrent and multi-threaded programming. `ConcurrentMap` was introduced in Java 5 as part of the Java Collections Framework to address thread safety concerns when working with maps.
 
+
+```
+  +-------------------+
+  |   ConcurrentMap   |
+  +-------------------+
+          |
+          |  Implements
+          |
+  +-------------------+
+  | ConcurrentHashMap |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |      Map          |
+  +-------------------+
+          |
+          |  Implements
+          |
+  +-------------------+
+  |    Interface      |
+  +-------------------+
+          |
+          |  Methods
+          |
+  +-------------------+
+  | - put(K key, V value)         |
+  | - putIfAbsent(K key, V value) |
+  | - replace(K key, V oldValue, V newValue) |
+  | - replace(K key, V value)    |
+  | - remove(Object key)         |
+  | - remove(Object key, Object value) |
+  | - compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction) |
+  | - computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction) |
+  | - computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction) |
+  | - merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction) |
+  | - containsKey(Object key)    |
+  | - containsValue(Object value) |
+  | - get(Object key)            |
+  | - size()                     |
+  | - isEmpty()                  |
+  | - clear()                    |
+  +-------------------+
+```
+
+
+
+
 Key characteristics and features of the `ConcurrentMap` interface include:
 
 1. **Thread Safety:** `ConcurrentMap` implementations are designed to be thread-safe. Multiple threads can access and modify the map concurrently without explicit synchronization.
