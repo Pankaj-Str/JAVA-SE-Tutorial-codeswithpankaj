@@ -2,6 +2,43 @@
 
 The `SortedMap` interface in Java is a part of the Java Collections Framework. It extends the `Map` interface and provides a way to store key-value pairs in a sorted order based on the keys. Some important points about `SortedMap`:
 
+
+```scss
+  +-------------+
+  |  SortedMap  |
+  +-------------+
+          |
+          |  Extends
+          |
+  +-------------+
+  |     Map     |
+  +-------------+
+          |
+          |  Methods
+          |
+  +-------------+
+  | - put(K key, V value)         |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)          |
+  | - clear()                     |
+  | - get(Object key)             |
+  | - containsKey(Object key)     |
+  | - containsValue(Object value) |
+  | - size()                      |
+  | - isEmpty()                   |
+  | - keySet()                    |
+  | - values()                    |
+  | - entrySet()                  |
+  | - firstKey()                  |
+  | - lastKey()                   |
+  | - subMap(K fromKey, K toKey)  |
+  | - headMap(K toKey)            |
+  | - tailMap(K fromKey)          |
+  +-------------------------------+
+
+
+```
+
 1. **Ordering**: It maintains the keys in sorted order. The specific order depends on the implementation class (e.g., `TreeMap`).
 
 2. **No Duplicate Keys**: Like `Map`, it does not allow duplicate keys. Each key can map to at most one value.
