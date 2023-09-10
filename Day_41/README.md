@@ -2,6 +2,49 @@
 
 A `LinkedBlockingQueue` is a concurrent queue implementation in Java that is part of the java.util.concurrent package. It is a data structure that provides a thread-safe, blocking FIFO (First-In-First-Out) queue.
 
+```scss
+  +----------------------+
+  |  LinkedBlockingQueue |
+  +----------------------+
+          |
+          |  Extends
+          |
+  +----------------------+
+  |    AbstractQueue    |
+  +----------------------+
+          |
+          |  Extends
+          |
+  +----------------------+
+  |    AbstractCollection|
+  +----------------------+
+          |
+          |  Implements
+          |
+  +----------------------+
+  |        Collection    |
+  +----------------------+
+          |
+          |  Methods
+          |
+  +----------------------+
+  | - add(E e)            |
+  | - offer(E e)          |
+  | - put(E e)            |
+  | - remove(Object o)    |
+  | - poll()              |
+  | - take()              |
+  | - peek()              |
+  | - size()              |
+  | - isEmpty()           |
+  | - contains(Object o)  |
+  | - clear()             |
+  | - iterator()          |
+  +----------------------+
+
+
+```
+
 Here are some key features and characteristics of a `LinkedBlockingQueue`:
 
 1. **Thread Safety:** `LinkedBlockingQueue` is designed to be used in multi-threaded environments, making it safe for concurrent access by multiple threads. It uses locks to synchronize access to the queue's internal data structure.
