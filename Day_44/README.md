@@ -8,6 +8,44 @@ Certainly! Let's go through each of the topics related to `WeakHashMap` in Java 
 
 A `WeakHashMap` is a class in Java that implements the `Map` interface and is similar to a `HashMap`. However, it has a key difference: it uses weak references for its keys. Weak references allow the garbage collector to remove key-value pairs from the map when the keys are no longer strongly reachable. This makes `WeakHashMap` suitable for situations where you want to associate data with objects that should be automatically removed when they are no longer in use.
 
+```scss
+
+  +-------------------+
+  |   WeakHashMap    |
+  +-------------------+
+          |
+          |  Extends
+          |
+  +-------------------+
+  |     AbstractMap   |
+  +-------------------+
+          |
+          |  Implements
+          |
+  +-------------------+
+  |        Map        |
+  +-------------------+
+          |
+          |  Methods
+          |
+  +-------------------+
+  | - put(K key, V value)         |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)          |
+  | - clear()                     |
+  | - get(Object key)             |
+  | - containsKey(Object key)     |
+  | - containsValue(Object value) |
+  | - size()                      |
+  | - isEmpty()                   |
+  | - keySet()                    |
+  | - values()                    |
+  | - entrySet()                  |
+  +-------------------------------+
+
+
+```
+
 ### 2. Create a WeakHashMap
 
 You can create a `WeakHashMap` instance by simply instantiating it:
