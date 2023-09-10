@@ -2,6 +2,7 @@
 
 The `ArrayDeque` class in Java is part of the Java Collections Framework and implements the `Deque` interface. It represents a resizable array-based double-ended queue (deque), which means it can be used as both a stack (LIFO) and a queue (FIFO). Unlike `LinkedList`, which uses a linked structure, `ArrayDeque` uses a dynamic array to store elements, providing efficient random access and resizing when needed.
 
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/9913bd0f-fc4e-40fb-80a2-0ddec5e5aeff)
 
 ```
   +------------------+
