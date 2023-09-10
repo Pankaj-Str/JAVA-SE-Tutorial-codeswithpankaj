@@ -1,5 +1,46 @@
 # Java ArrayList
 
+
+```scss
+  +----------------+
+  |   ArrayList   |
+  +----------------+
+        |
+        |  Extends
+        |
+  +----------------+
+  |   AbstractList |
+  +----------------+
+        |
+        |  Implements
+        |
+  +----------------+
+  |      List      |
+  +----------------+
+        |
+        |  Methods
+        |
+  +----------------+
+  | - add(E e)             |
+  | - add(int index, E e)  |
+  | - remove(int index)    |
+  | - get(int index)       |
+  | - set(int index, E e)  |
+  | - indexOf(Object o)    |
+  | - lastIndexOf(Object o)|
+  | - size()               |
+  | - isEmpty()            |
+  | - contains(Object o)   |
+  | - clear()              |
+  | - iterator()           |
+  | - subList(int fromIndex, |
+  |            int toIndex)   |
+  +------------------------+
+
+
+```
+
+
 ## Creating an ArrayList
 
 Before using `ArrayList`, we need to import the `java.util.ArrayList` package first. Here is how we can create arraylists in Java:
