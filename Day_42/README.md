@@ -4,6 +4,44 @@ In Java, `HashMap` is a widely used data structure that implements the `Map` int
 
 Here's how you can use `HashMap` in Java:
 
+```scss
+  +----------------+
+  |    HashMap     |
+  +----------------+
+          |
+          |  Extends
+          |
+  +----------------+
+  |   AbstractMap  |
+  +----------------+
+          |
+          |  Implements
+          |
+  +----------------+
+  |      Map       |
+  +----------------+
+          |
+          |  Methods
+          |
+  +----------------+
+  | - put(K key, V value)         |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)          |
+  | - clear()                     |
+  | - get(Object key)             |
+  | - containsKey(Object key)     |
+  | - containsValue(Object value) |
+  | - size()                      |
+  | - isEmpty()                   |
+  | - keySet()                    |
+  | - values()                    |
+  | - entrySet()                  |
+  +-------------------+
+
+
+```
+
+
 ### Creating a HashMap:
 
 You can create a `HashMap` and specify its key and value types. For example:
