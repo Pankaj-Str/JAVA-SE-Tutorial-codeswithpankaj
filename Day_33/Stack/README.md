@@ -1,7 +1,29 @@
 # Java Stack Class
 
 The Java collections framework has a class named Stack that provides the functionality of the stack data structure.
+```scss
+  +-----------+
+  |   Stack   |
+  +-----------+
+        |
+        |  Extends
+        |
+  +-----------+
+  |   Vector  |
+  +-----------+
+        |
+        |  Methods
+        |
+  +-----------+
+  | - push(E item)    |
+  | - pop()            |
+  | - peek()           |
+  | - empty()          |
+  | - search(Object o) |
+  | - size()           |
+  +-------------------+
 
+```
 
 ## Creating a Stack
 In order to create a stack, we must import the java.util.Stack package first. Once we import the package, here is how we can create a stack in Java.
