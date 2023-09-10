@@ -48,6 +48,8 @@ The `Deque` (Double-ended Queue) interface in Java is part of the Java Collectio
 
 
 ```
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/ee654895-990c-4120-965a-3e48c93f2a80)
+
 
 Key characteristics and methods of the `Deque` interface include:
 
