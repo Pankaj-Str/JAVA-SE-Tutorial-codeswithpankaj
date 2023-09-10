@@ -2,6 +2,56 @@
 
 The `NavigableMap` interface in Java is a subinterface of the `SortedMap` interface. It provides navigation methods for working with key-value pairs in a sorted map. This interface was introduced in Java 6 to enhance the capabilities of the `SortedMap` interface.
 
+
+
+```
+  +-----------------+
+  |   NavigableMap  |
+  +-----------------+
+          |
+          |  Extends
+          |
+  +-----------------+
+  |   SortedMap     |
+  +-----------------+
+          |
+          |  Extends
+          |
+  +-----------------+
+  |      Map        |
+  +-----------------+
+          |
+          |  Methods
+          |
+  +-----------------+
+  | - put(K key, V value)          |
+  | - putAll(Map<? extends K, ? extends V> map) |
+  | - remove(Object key)           |
+  | - clear()                      |
+  | - get(Object key)              |
+  | - containsKey(Object key)      |
+  | - containsValue(Object value)  |
+  | - size()                       |
+  | - isEmpty()                    |
+  | - keySet()                     |
+  | - values()                     |
+  | - entrySet()                   |
+  | - firstKey()                   |
+  | - lastKey()                    |
+  | - ceilingKey(K key)            |
+  | - floorKey(K key)              |
+  | - higherKey(K key)             |
+  | - lowerKey(K key)              |
+  | - subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) |
+  | - headMap(K toKey, boolean inclusive) |
+  | - tailMap(K fromKey, boolean inclusive) |
+  | - pollFirstEntry()             |
+  | - pollLastEntry()              |
+  +-------------------------------+
+```
+
+
+
 Some key features and methods of the `NavigableMap` interface include:
 
 1. **Navigation Methods:** It offers methods for navigating through the map in both ascending and descending order based on the keys. Some of these methods include `lowerKey()`, `floorKey()`, `ceilingKey()`, `higherKey()`, `descendingMap()`, and more.
