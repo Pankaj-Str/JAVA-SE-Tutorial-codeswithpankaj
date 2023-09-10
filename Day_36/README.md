@@ -2,6 +2,53 @@
 
 The `Deque` (Double-ended Queue) interface in Java is part of the Java Collections Framework and represents a linear collection of elements that supports adding and removing elements from both ends of the collection. It extends the `Queue` interface and provides additional methods for stack-like (LIFO) and queue-like (FIFO) operations.
 
+```scss
+
+  +------------+
+  |   Deque    |
+  +------------+
+          |
+          |  Extends
+          |
+  +------------+
+  |   Queue    |
+  +------------+
+          |
+          |  Extends
+          |
+  +------------+
+  |  Collection|
+  +------------+
+          |
+          |  Methods
+          |
+  +------------+
+  | - add(E e)          |
+  | - offer(E e)        |
+  | - remove()          |
+  | - poll()            |
+  | - element()         |
+  | - peek()            |
+  | - addFirst(E e)     |
+  | - offerFirst(E e)   |
+  | - removeFirst()     |
+  | - pollFirst()       |
+  | - getFirst()        |
+  | - addLast(E e)      |
+  | - offerLast(E e)    |
+  | - removeLast()      |
+  | - pollLast()        |
+  | - getLast()         |
+  | - size()            |
+  | - isEmpty()         |
+  | - contains(Object o)|
+  | - clear()           |
+  | - iterator()        |
+  +---------------------+
+
+
+```
+
 Key characteristics and methods of the `Deque` interface include:
 
 **Characteristics:**
