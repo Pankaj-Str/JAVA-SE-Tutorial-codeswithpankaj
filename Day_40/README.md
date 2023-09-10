@@ -2,6 +2,54 @@
 
 The ArrayBlockingQueue class of the Java Collections framework provides the blocking queue implementation using an array.
 
+```scss
+  +-----------------------+
+  |  ArrayBlockingQueue  |
+  +-----------------------+
+          |
+          |  Extends
+          |
+  +-----------------------+
+  |    AbstractQueue     |
+  +-----------------------+
+          |
+          |  Extends
+          |
+  +-----------------------+
+  |    AbstractCollection|
+  +-----------------------+
+          |
+          |  Implements
+          |
+  +-----------------------+
+  |        Collection     |
+  +-----------------------+
+          |
+          |  Methods
+          |
+  +-----------------------+
+  | - add(E e)             |
+  | - offer(E e)           |
+  | - put(E e)             |
+  | - remove(Object o)     |
+  | - poll()               |
+  | - take()               |
+  | - peek()               |
+  | - size()               |
+  | - isEmpty()            |
+  | - contains(Object o)   |
+  | - clear()              |
+  | - iterator()           |
+  +-----------------------+
+  |  Additional Methods   |
+  +-----------------------+
+  | - remainingCapacity()  |
+  | - drainTo(Collection<? super E> c)  |
+  | - drainTo(Collection<? super E> c, int maxElements) |
+  +-----------------------+
+
+
+```
 
 ArrayBlockingQueue class is a bounded blocking queue backed by an array. By bounded, it means that the size of the Queue is fixed. Once created, the capacity cannot be changed. Attempts to put an element into a full queue will result in the operation blocking. Similarly attempts to take an element from an empty queue will also be blocked. Boundness of the ArrayBlockingQueue can be achieved initially bypassing capacity as the parameter in the constructor of ArrayBlockingQueue. This queue orders elements FIFO (first-in-first-out). It means that the head of this queue is the oldest element of the elements present in this queue. 
 
