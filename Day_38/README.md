@@ -2,7 +2,101 @@
 
 The `ArrayDeque` class in Java is part of the Java Collections Framework and implements the `Deque` interface. It represents a resizable array-based double-ended queue (deque), which means it can be used as both a stack (LIFO) and a queue (FIFO). Unlike `LinkedList`, which uses a linked structure, `ArrayDeque` uses a dynamic array to store elements, providing efficient random access and resizing when needed.
 
-Here are some key characteristics and methods of the `ArrayDeque` class:
+
+```
+  +------------------+
+  |   ArrayDeque    |
+  +------------------+
+          |
+          |  Extends
+          |
+  +------------------+
+  |   AbstractCollection |
+  +------------------+
+          |
+          |  Implements
+          |
+  +------------------+
+  |      Deque       |
+  +------------------+
+          |
+          |  Methods
+          |
+  +------------------+
+  | - addFirst(E e)  |
+  | - addLast(E e)   |
+  | - offerFirst(E e)|
+  | - offerLast(E e) |
+  | - removeFirst()  |
+  | - removeLast()   |
+  | - pollFirst()    |
+  | - pollLast()     |
+  | - getFirst()     |
+  | - getLast()      |
+  | - peekFirst()    |
+  | - peekLast()     |
+  | - push(E e)      |
+  | - pop()          |
+  | - size()         |
+  | - isEmpty()      |
+  | - clear()        |
+  | - iterator()     |
+  +------------------+
+```
+
+
+1. Adding elements:
+   - `addFirst(E e)`: Adds an element to the front of the deque.
+     ```java
+     deque.addFirst("First");
+     ```
+
+   - `addLast(E e)`: Adds an element to the end of the deque.
+     ```java
+     deque.addLast("Last");
+     ```
+
+2. Removing elements:
+   - `removeFirst()`: Removes and returns the first element.
+     ```java
+     String first = deque.removeFirst();
+     ```
+
+   - `removeLast()`: Removes and returns the last element.
+     ```java
+     String last = deque.removeLast();
+     ```
+
+3. Peeking at elements:
+   - `getFirst()`: Returns the first element without removing it.
+     ```java
+     String first = deque.getFirst();
+     ```
+
+   - `getLast()`: Returns the last element without removing it.
+     ```java
+     String last = deque.getLast();
+     ```
+
+4. Checking size and emptiness:
+   - `size()`: Returns the number of elements in the deque.
+     ```java
+     int size = deque.size();
+     ```
+
+   - `isEmpty()`: Checks if the deque is empty.
+     ```java
+     boolean isEmpty = deque.isEmpty();
+     ```
+
+5. Clearing the deque:
+   - `clear()`: Removes all elements from the deque.
+     ```java
+     deque.clear();
+     ```
+
+
+
 
 **Characteristics:**
 - Resizable array-based structure.
