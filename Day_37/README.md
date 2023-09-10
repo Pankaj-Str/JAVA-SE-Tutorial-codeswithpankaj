@@ -2,6 +2,9 @@
 
 In Java, `LinkedList` is a class that implements the `List` and `Deque` interfaces. It is part of the Java Collections Framework and represents a linear collection of elements where elements are stored in nodes, and each node points to the next and, optionally, the previous node. This structure allows for efficient insertions and removals at both the beginning and end of the list, making it a good choice for certain use cases.
 
+![image](https://github.com/Pankaj-Str/Learn-JAVA-SE/assets/36913690/663f9dfb-1b5f-401d-a3d5-182cf9ab63ff)
+
+
 ```scss
 
   +----------------+
