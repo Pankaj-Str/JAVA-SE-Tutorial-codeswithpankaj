@@ -1,6 +1,21 @@
 # Classes that Implement List
 
 Since List is an interface, we cannot create objects from it.
+
+```scss
+              +---------+
+              |   List  |
+              +---------+
+       /           |           \
+      /            |            \
+     /             |             \
+ +---------+  +---------+    +------+
+ |ArrayList|  |LinkedList|   |Vector|
+ +----------+ +----------+   +------+
+
+```
+
+
 In order to use functionalities of the List interface, we can use these classes:
     
 1. ArrayList
