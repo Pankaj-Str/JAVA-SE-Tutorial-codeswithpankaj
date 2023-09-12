@@ -1,4 +1,3 @@
-package Day_21;
 
 // Define an interface named 'Drawable'
 interface Drawable {
