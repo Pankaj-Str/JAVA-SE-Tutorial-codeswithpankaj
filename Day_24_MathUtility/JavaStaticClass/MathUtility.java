@@ -1,4 +1,4 @@
-package Day_25;
+package Day_24_MathUtility.JavaStaticClass;
 
 public class MathUtility {
     // Static constant (final) field

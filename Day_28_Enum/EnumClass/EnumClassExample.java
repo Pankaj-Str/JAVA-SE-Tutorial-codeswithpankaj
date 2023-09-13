@@ -1,3 +1,4 @@
+
 // Define a Shape interface
 interface Shape {
     double area();
@@ -5,7 +6,7 @@ interface Shape {
 }
 
 // Create an enum for different geometric shapes
-public enum GeometricShape {
+ enum GeometricShape{
     CIRCLE(new Circle(5.0)),
     RECTANGLE(new Rectangle(4.0, 6.0)),
     TRIANGLE(new Triangle(3.0, 4.0, 5.0));
@@ -88,7 +89,7 @@ class Triangle implements Shape {
     }
 }
 
-public class EnumClassExample {
+public class EnumClassExample{
     public static void main(String[] args) {
         GeometricShape circle = GeometricShape.CIRCLE;
         GeometricShape rectangle = GeometricShape.RECTANGLE;

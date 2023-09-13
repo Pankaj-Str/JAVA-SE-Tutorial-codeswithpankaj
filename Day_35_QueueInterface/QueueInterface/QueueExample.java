@@ -1,4 +1,4 @@
-package Day_35.QueueInterface;
+package Day_35_QueueInterface.QueueInterface;
 // www.codeswithpankaj.com
 import java.util.LinkedList;
 import java.util.Queue;

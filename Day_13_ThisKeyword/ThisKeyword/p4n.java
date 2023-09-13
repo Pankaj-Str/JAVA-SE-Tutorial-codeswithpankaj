@@ -1,4 +1,4 @@
-package Day;
+package Day_13_ThisKeyword.ThisKeyword;
 public class p4n {
     private int number;
 

@@ -1,4 +1,4 @@
-package Day_34.Vector;
+package Day_34_Vector.Vector;
 // www.codeswithpankaj.com
 import java.util.Iterator;
 import java.util.Vector;

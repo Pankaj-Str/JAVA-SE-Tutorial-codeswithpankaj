@@ -1,4 +1,4 @@
-package Day_22;
+package Day_21_Polymorphism.JavaPolymorphism;
 
 class Animal {
     void makeSound() {

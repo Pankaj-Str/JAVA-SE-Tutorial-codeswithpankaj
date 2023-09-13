@@ -1,4 +1,4 @@
-package Day_09.Function2;
+package Day_07_Function.Function2;
 
 public class NonReturnWithArguments {
     // Non-Return Type and With Arguments

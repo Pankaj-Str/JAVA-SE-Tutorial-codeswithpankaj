@@ -1,4 +1,4 @@
-package Day_09.Function;
+package Day_07_Function.Function;
 
 class Function1{
     // Non Return type and Non Arguments 

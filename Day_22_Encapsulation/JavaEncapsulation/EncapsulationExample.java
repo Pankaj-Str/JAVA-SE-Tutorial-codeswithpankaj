@@ -1,4 +1,4 @@
-package Day_23;
+package Day_22_Encapsulation.JavaEncapsulation;
 
 public class EncapsulationExample {
     public static void main(String[] args) {
