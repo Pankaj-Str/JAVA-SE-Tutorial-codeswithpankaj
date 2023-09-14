@@ -1,4 +1,4 @@
-package Day_24;
+package Day_23_NestedClassExample.NestedClass;
 
 // Outer class
 class Outer {

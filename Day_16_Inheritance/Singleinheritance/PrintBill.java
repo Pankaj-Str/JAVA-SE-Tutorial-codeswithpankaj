@@ -1,4 +1,4 @@
-package Day_17.Singleinheritance;
+package Day_16_Inheritance.Singleinheritance;
 
 class tax{
 

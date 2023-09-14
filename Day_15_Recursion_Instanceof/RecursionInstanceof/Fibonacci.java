@@ -1,4 +1,4 @@
-package Day_16;
+package Day_15_Recursion_Instanceof.RecursionInstanceof;
 
 public class Fibonacci {
     public static int fibonacci(int n) {

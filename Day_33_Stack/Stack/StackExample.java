@@ -1,4 +1,4 @@
-package Day_33.Stack;
+package Day_33_Stack.Stack;
 
 import java.util.Stack;
 

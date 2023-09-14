@@ -1,3 +1,4 @@
+package MultidimensionalArrays;
 class MultiArrayExample{
     public static void main(String[] args) {
         

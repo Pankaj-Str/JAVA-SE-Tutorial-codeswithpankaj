@@ -1,4 +1,4 @@
-package Day_17.MultipleInheritance;
+package Day_16_Inheritance.MultipleInheritance;
 
 // First interface
 interface Swimmer {

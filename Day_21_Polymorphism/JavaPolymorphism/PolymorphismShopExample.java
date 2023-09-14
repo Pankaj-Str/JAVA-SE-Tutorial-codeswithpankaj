@@ -1,4 +1,4 @@
-package Day_22;
+package Day_21_Polymorphism.JavaPolymorphism;
 
 // Base class representing a product in a shop
 class Product {

@@ -1,4 +1,4 @@
-package Day_20;
+package Day_19_AbstractClassMethod.AbstractClassMethod;
 
 abstract class p4n {
     // Abstract method without implementation

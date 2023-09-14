@@ -1,4 +1,4 @@
-package Day_40.ArrayList;
+package Day_32_ArrayList.ArrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 // www.codeswithpankaj.com

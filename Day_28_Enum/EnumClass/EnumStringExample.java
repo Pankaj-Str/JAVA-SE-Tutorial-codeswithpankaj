@@ -1,4 +1,6 @@
-public enum Day {
+
+
+ enum Day {
     SUNDAY("Sunday"),
     MONDAY("Monday"),
     TUESDAY("Tuesday"),

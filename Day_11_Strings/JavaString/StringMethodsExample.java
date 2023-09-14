@@ -1,4 +1,4 @@
-package Day_12;
+package Day_11_Strings.JavaString;
 
 public class StringMethodsExample {
     public static void main(String[] args) {

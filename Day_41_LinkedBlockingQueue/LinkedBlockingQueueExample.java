@@ -3,7 +3,7 @@ package Day_41_LinkedBlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class LinkedBlockingQueueExample {
- {
+ 
     public static void main(String[] args) {
         // Create a LinkedBlockingQueue with a maximum capacity of 10
         LinkedBlockingQueue<Integer> queue = new LinkedBlockingQueue<>(10);

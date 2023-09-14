@@ -1,4 +1,4 @@
-package Day_18;
+package Day_17_MethodOverriding.MethodOverriding;
 
 class Animal {
     void makeSound() {

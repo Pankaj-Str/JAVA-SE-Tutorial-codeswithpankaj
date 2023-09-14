@@ -1,4 +1,4 @@
-package Day_17.HierarchicalInheritance;
+package Day_16_Inheritance.HierarchicalInheritance;
 
 // Superclass
 class Animal {

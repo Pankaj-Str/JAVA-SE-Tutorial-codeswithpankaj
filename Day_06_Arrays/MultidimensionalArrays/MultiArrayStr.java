@@ -1,3 +1,4 @@
+package MultidimensionalArrays;
 class multiArrayStr{
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day_17.HybridInheritance;
+package Day_16_Inheritance.HybridInheritance;
 
 // Interface for swimming behavior
 interface Swimmer {

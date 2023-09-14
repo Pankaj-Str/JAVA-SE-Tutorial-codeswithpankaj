@@ -1,4 +1,4 @@
-package Day_26;
+
 
 public class AnonymousClassExample1 {
     public static void main(String[] args) {

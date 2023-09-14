@@ -1,4 +1,4 @@
-package Day_27;
+package Day_27_Singleton.JavaSingleton;
 
 public class SingletonExample {
     public static void main(String[] args) {

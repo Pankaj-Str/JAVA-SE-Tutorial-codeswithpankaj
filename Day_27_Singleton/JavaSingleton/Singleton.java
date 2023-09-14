@@ -1,4 +1,4 @@
-package Day_27;
+package Day_27_Singleton.JavaSingleton;
 
 public class Singleton {
     // Private static instance variable

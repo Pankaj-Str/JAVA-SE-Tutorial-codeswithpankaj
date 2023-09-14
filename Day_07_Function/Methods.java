@@ -1,4 +1,4 @@
-package Day_09;
+package Day_07_Function;
 
 public class Methods {
     void info(){

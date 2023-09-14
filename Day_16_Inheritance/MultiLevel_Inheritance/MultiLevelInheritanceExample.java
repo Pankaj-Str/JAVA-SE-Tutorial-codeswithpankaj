@@ -1,4 +1,4 @@
-package Day_17.MultiLevel_Inheritance;
+package Day_16_Inheritance.MultiLevel_Inheritance;
 
 // Superclass
 class Animal {

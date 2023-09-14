@@ -1,4 +1,4 @@
-package Day_25;
+package Day_24_MathUtility.JavaStaticClass;
 
 public class StaticClassExample {
     public static void main(String[] args) {
