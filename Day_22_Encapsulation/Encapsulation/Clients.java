@@ -1,3 +1,4 @@
+package Day_22_Encapsulation.Encapsulation;
 class Clients{
 
         String name;
