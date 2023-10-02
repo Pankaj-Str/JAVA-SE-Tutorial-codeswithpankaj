@@ -1,8 +1,8 @@
-package Day_34_Vector.Vector;
+package Day_34_Vector;
 // www.codeswithpankaj.com
 import java.util.Vector;
 
-public class VectorSetExample {
+public class VectorContainsExample {
     public static void main(String[] args) {
         // Create a Vector of integers
         Vector<Integer> numbers = new Vector<>();
@@ -10,11 +10,11 @@ public class VectorSetExample {
         numbers.add(20);
         numbers.add(30);
 
-        // Change an element in the Vector
-        numbers.set(1, 25);
+        // Check if the Vector contains a specific element
+        boolean containsTwenty = numbers.contains(20);
 
-        // Print the updated Vector
-        System.out.println("Updated Vector: " + numbers);
+        // Print the result
+        System.out.println("Vector contains 20: " + containsTwenty);
     }
 }
 
