@@ -1,4 +1,4 @@
-package Day_22_Encapsulation.JavaEncapsulation;
+package Day_22_Encapsulation.Encapsulation;
 
 public class Student {
     private String name; // Private data member

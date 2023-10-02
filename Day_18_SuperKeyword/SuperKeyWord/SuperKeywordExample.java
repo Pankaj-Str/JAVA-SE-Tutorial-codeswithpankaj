@@ -1,4 +1,3 @@
-package Day_19;
 
 class Animal {
     String name;
