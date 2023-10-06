@@ -1,4 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.project.explorer.showNonJavaResources": false
+    "java.project.explorer.showNonJavaResources": false,
+    "java.project.sourcePaths": [
+        "Day_30_ExceptionHandling/ExceptionHandling",
+        "Day_42_HashMap"
+    ]
 }
