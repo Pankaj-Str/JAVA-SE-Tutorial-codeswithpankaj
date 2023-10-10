@@ -1,166 +1,63 @@
+# Java Programming Topics
 
-# Learn Java Programming
+This is a list of Java programming topics for a study plan or course.
 
-Java Introduction
-
-    Java Hello World
-    Java JVM, JRE and JDK
-    Java Variables
-    Java Data Types
-    Java Operators
-    Java Input and Output
-    Java Expressions & Blocks
-    Java Comment
-
-Java Flow Control
-
-    Java if...else
-    Java switch Statement
-    Java for Loop
-    Java for-each Loop
-    Java while Loop
-    Java break Statement
-    Java continue Statement
-
-Java Arrays
-
-    Java Arrays
-    Multidimensional Array
-    Java Copy Array
-
-Java OOP (I)
-
-    Java Class and Objects
-    Java Methods
-    Java Constructor
-    Java Strings
-    Java Access Modifiers
-    Java this keyword
-    Java final keyword
-    Java Recursion
-    Java instanceof Operator
-
-Java OOP (II)
-
-    Java Inheritance
-    Java Method Overriding
-    Java super Keyword
-    Abstract Class & Method
-    Java Interfaces
-    Java Polymorphism
-    Java Encapsulation
-
-Java OOP (III)
-
-    Nested & Inner Class
-    Java Static Class
-    Java Anonymous Class
-    Java Singleton
-    Java enum Class
-    Java enum Constructor
-    Java enum String
-    Java Reflection
-
-Java Exception Handling
-
-    Java Exceptions
-    Java Exception Handling
-    Java try...catch
-    Java throw and throws
-    Java catch Multiple Exceptions
-    Java try-with-resources
-    Java Annotations
-    Java Annotation Types
-    Java Logging
-    Java Assertions
-
-Java List
-
-    Java Collections Framework
-    Java Collection Interface
-    Java List Interface
-    Java ArrayList
-    Java Vector
-    Java Stack
-
-Java Queue
-
-    Java Queue Interface
-    Java PriorityQueue Interface
-    Java Deque Interface
-    Java LinkedList
-    Java ArrayDeque
-    Java BlockingQueue Interface
-    Java ArrayBlockingQueue
-    Java LinkedBlockingQueue
-
-Java Map
-
-    Java Map Interface
-    Java HashMap
-    Java LinkedHashMap
-    Java WeakHashMap
-    Java EnumMap
-    Java SortedMap Interface
-    Java NavigableMap Interface
-    Java TreeMap
-    Java ConcurrentMap Interface
-    Java ConcurrentHashMap
-
-Java Set
-
-    Java Set Interface
-    Java HashSet
-    Java EnumSet
-    Java LinkedHashSet
-    Java SortedSet Interface
-    Java NavigableSet Interface
-    Java TreeSet
-    Java Algorithms
-    Java Iterator
-    Java ListIterator
-
-Java I/O Streams
-
-    Java I/O Streams
-    Java InputStream
-    Java OutputStream
-    Java FileInputStream
-    Java FileOutputStream
-    Java ByteArrayInputStream
-    Java ByteArrayOutputStream
-    Java ObjectInputStream
-    Java ObjectOutputStream
-    Java BufferedInputStream
-    Java BufferedOutputStream
-    Java PrintStream
-
-Java Reader/Writer
-
-    Java Reader
-    Java Writer
-    Java InputStreamReader
-    Java OutputStreamWriter
-    Java FileReader
-    Java FileWriter
-    Java BufferedReader
-    Java BufferedWriter
-    Java StringReader
-    Java StringWriter
-    Java PrintWriter
-
-Additional Topics
-
-    Java Scanner Class
-    Java Type Casting
-    Java autoboxing and unboxing
-    Java Lambda Expression
-    Java Generics
-    Java File Class
-    Java Wrapper Class
-    Java Command Line Arguments
-
-
-
-    
-
+| Day | Topic Name           | Description               |
+| --- | -------------------- | ------------------------- |
+| 01  | Introduction         | Introduction to Java      |
+| 02  | Operators            | Operators in Java         |
+| 03  | If_Else              | If-Else Statements        |
+| 04  | SwitchStatement      | Switch Statements         |
+| 05  | Java Loop            | Loops in Java             |
+| 06  | Arrays               | Arrays in Java            |
+| 07  | Function             | Functions and Methods     |
+| 08  | BreakContinue        | Break and Continue        |
+| 09  | ClassObjects         | Classes and Objects       |
+| 10  | Constructor          | Constructors              |
+| 11  | Strings              | String Manipulation       |
+| 12  | AccessModifiers      | Access Modifiers          |
+| 13  | ThisKeyword          | 'this' Keyword            |
+| 14  | FinalKeyword         | 'final' Keyword           |
+| 15  | Recursion_Instanceof | Recursion and 'instanceof' |
+| 16  | Inheritance          | Inheritance               |
+| 17  | MethodOverriding     | Method Overriding         |
+| 18  | SuperKeyword         | 'super' Keyword           |
+| 19  | AbstractClassMethod  | Abstract Classes/Methods  |
+| 20  | Interfaces           | Interfaces                |
+| 21  | Polymorphism         | Polymorphism              |
+| 22  | Encapsulation        | Encapsulation             |
+| 23  | NestedClassExample   | Nested Classes            |
+| 24  | MathUtility          | Math Utility Classes      |
+| 26  | AnonymousClass       | Anonymous Classes         |
+| 27  | Singleton            | Singleton Design Pattern  |
+| 28  | Enum                 | Enumerations               |
+| 29  | Reflection           | Reflection in Java        |
+| 30  | ExceptionHandling    | Exception Handling        |
+| 31  | List                 | Lists in Java             |
+| 32  | ArrayList            | ArrayList                 |
+| 33  | Stack                | Stack                     |
+| 34  | Vector               | Vector                    |
+| 35  | QueueInterface       | Queue Interface           |
+| 36  | DequeInterface       | Deque Interface           |
+| 37  | LinkedList           | LinkedList                |
+| 38  | ArrayDeque           | ArrayDeque                |
+| 39  | BlockingQueue        | BlockingQueue             |
+| 40  | ArrayBlockingQueue   | ArrayBlockingQueue        |
+| 41  | LinkedBlockingQueue  | LinkedBlockingQueue       |
+| 42  | HashMap              | HashMap                   |
+| 43  | LinkedHashMap        | LinkedHashMap             |
+| 44  | LinkedHashMap        | LinkedHashMap             |
+| 45  | EnumMap              | EnumMap                   |
+| 46  | SortedMapInterface   | Sorted Map Interface      |
+| 47  | NavigableMapInterface| Navigable Map Interface   |
+| 48  | TreeMap              | TreeMap                   |
+| 49  | ConcurrentMapInterface| Concurrent Map Interface |
+| 50  | Set_Interface        | Set Interface             |
+| 51  | HashSet              | HashSet                   |
+| 52  | EnumSet              | EnumSet                   |
+| 53  | LinkedHashSet        | LinkedHashSet             |
+| 54  | SortedSetInterface   | Sorted Set Interface      |
+| 55  | NavigableSetInterface| Navigable Set Interface   |
+| 56  | TreeSet              | TreeSet                   |
+| 57  | IO_Streams           | Input/Output Streams      |
+| 58  | Java_Reader_Writer   | Reader and Writer         |
