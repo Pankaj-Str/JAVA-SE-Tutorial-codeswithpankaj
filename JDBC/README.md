@@ -18,7 +18,39 @@ select * from emp;
 insert into emp value(3,"Aditya ji","Goa");
 
 ```
+```java
+package codeswithpankaj.com;
+import java.sql.*;
+public class p4n_01 {
+    public static void main(String[] args) {
+        try{    
+    //step number 1st
+    Class.forName("com.mysql.jdbc.Driver");       
+    //step number 2nd
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/p4n_db","root","admin");
+    //here office is database name, root is username and password
+    //Step number 3rd
+    Statement stmt=con.createStatement();
+    //step number 4th
+    ResultSet rs= stmt.executeQuery("select * from emp");
+    //step number 5th get all data from database...
+    while(rs.next())
+    System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3));
+    con.close();
+    }catch(Exception e)
+    { 
+        System.out.println(e);
+    } } }
 
+// Step No. 1 = import java.sql.*;
+// Step No. 2  = add driver  Class.forName("com.mysql.jdbc.Driver")
+// step number 3 = Connection con = DriverManager.getConnection( "jdbc:mysql://localhost:3306/p4n_db","root","admin"); 
+// here office is database name, root is username and password
+// Step number 4 = Statement stmt = con.createStatement();
+// step number 5 = ResultSet rs=stmt.executeQuery("select * from emp");
+// step number 6 = th get all data from database...
+```
+-----------
 1. **Download and Install MySQL Connector/J**: First, you'll need to download and install the MySQL Connector/J library, which is a JDBC driver for MySQL. You can download it from the MySQL website (https://dev.mysql.com/downloads/connector/j/). Once downloaded, add the JAR file to your Java project's classpath.
 
 2. **Import Necessary Packages**: In your Java code, you need to import the necessary packages for JDBC.
