@@ -1,6 +1,23 @@
 # Connect to a MySQL database using Java JDBC
 
 To connect to a MySQL database using Java JDBC, you need to follow these steps:
+```sql
+-- create database
+create database p4n_db;
+-- list database
+show databases;
+-- select database
+use p4n_db;
+
+create table emp(
+	id int,
+    name varchar(100),
+    city varchar(100)
+);
+select * from emp;
+insert into emp value(3,"Aditya ji","Goa");
+
+```
 
 1. **Download and Install MySQL Connector/J**: First, you'll need to download and install the MySQL Connector/J library, which is a JDBC driver for MySQL. You can download it from the MySQL website (https://dev.mysql.com/downloads/connector/j/). Once downloaded, add the JAR file to your Java project's classpath.
 
