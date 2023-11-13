@@ -2,8 +2,11 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.explorer.showNonJavaResources": false,
     "java.project.sourcePaths": [
+        "Day_59_Threading",
         "Day_42_HashMap",
         "Day_30_ExceptionHandling/ExceptionHandling",
-        "Day_59_Threading"
+        "Day_22_Encapsulation/Encapsulation",
+        "Day_21_Polymorphism/JavaPolymorphism",
+        "Day_20_Interfaces/JavaInterface"
     ]
 }
