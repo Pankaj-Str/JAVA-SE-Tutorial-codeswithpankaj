@@ -2,7 +2,8 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.explorer.showNonJavaResources": false,
     "java.project.sourcePaths": [
+        "Day_61_Immutable_Objects/MutableObjects",
         "Day_61_Immutable_Objects/ImmutableObjects",
-        "Day_61_Immutable_Objects/MutableObjects"
+        "Day_01_Introduction/user_input"
     ]
 }
