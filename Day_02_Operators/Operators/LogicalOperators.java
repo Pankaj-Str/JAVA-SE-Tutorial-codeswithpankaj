@@ -1,3 +1,7 @@
+// 5. Logical Operators:
+//    - Logical AND (&&): Returns true if both operands are true.
+//    - Logical OR (||): Returns true if either operand is true.
+//    - Logical NOT (!): Reverses the logical state of an operand.
 
 
 public class LogicalOperators {
