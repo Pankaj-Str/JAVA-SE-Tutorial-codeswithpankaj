@@ -231,7 +231,7 @@ Grade is 7 if conditions (i) and (iii) are met
 Grade is 6 if only one condition is met
 Grade is 5 if none of the conditions are met
 ```
-34. Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel
+Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel
 
 
 
