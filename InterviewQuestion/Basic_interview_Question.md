@@ -281,9 +281,279 @@
     ```
 
 
+44. **Question:** Implement a Java program to find the second largest element in an array.
+
+    **Answer:**
+    ```java
+    public class SecondLargestElement {
+        public static int findSecondLargest(int[] arr) {
+            int max = Integer.MIN_VALUE;
+            int secondMax = Integer.MIN_VALUE;
+
+            for (int num : arr) {
+                if (num > max) {
+                    secondMax = max;
+                    max = num;
+                } else if (num > secondMax && num != max) {
+                    secondMax = num;
+                }
+            }
+            return secondMax;
+        }
+
+        public static void main(String[] args) {
+            int[] array = {3, 8, 1, 4, 6, 2, 7};
+            int secondLargest = findSecondLargest(array);
+            System.out.println("Second Largest Element: " + secondLargest);
+        }
+    }
+    ```
+
+45. **Question:** Create a Java program to reverse a linked list.
+
+    **Answer:**
+    ```java
+    class Node {
+        int data;
+        Node next;
+
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    public class ReverseLinkedList {
+        public static Node reverseList(Node head) {
+            Node prev = null;
+            Node current = head;
+            Node next = null;
+
+            while (current != null) {
+                next = current.next;
+                current.next = prev;
+                prev = current;
+                current = next;
+            }
+
+            return prev;
+        }
+
+        public static void printList(Node node) {
+            while (node != null) {
+                System.out.print(node.data + " ");
+                node = node.next;
+            }
+        }
+
+        public static void main(String[] args) {
+            Node head = new Node(1);
+            head.next = new Node(2);
+            head.next.next = new Node(3);
+            head.next.next.next = new Node(4);
+
+            System.out.println("Original Linked List:");
+            printList(head);
+
+            head = reverseList(head);
+
+            System.out.println("\nReversed Linked List:");
+            printList(head);
+        }
+    }
+    ```
+
+46. **Question:** Write a Java program to perform matrix multiplication.
+
+    **Answer:**
+    ```java
+    public class MatrixMultiplication {
+        public static int[][] multiplyMatrices(int[][] mat1, int[][] mat2) {
+            int rows1 = mat1.length;
+            int cols1 = mat1[0].length;
+            int cols2 = mat2[0].length;
+
+            int[][] result = new int[rows1][cols2];
+
+            for (int i = 0; i < rows1; i++) {
+                for (int j = 0; j < cols2; j++) {
+                    for (int k = 0; k < cols1; k++) {
+                        result[i][j] += mat1[i][k] * mat2[k][j];
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public static void printMatrix(int[][] matrix) {
+            for (int[] row : matrix) {
+                for (int num : row) {
+                    System.out.print(num + " ");
+                }
+                System.out.println();
+            }
+        }
+
+        public static void main(String[] args) {
+            int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}};
+            int[][] matrix2 = {{7, 8}, {9, 10}, {11, 12}};
+
+            System.out.println("Matrix 1:");
+            printMatrix(matrix1);
+
+            System.out.println("\nMatrix 2:");
+            printMatrix(matrix2);
+
+            int[][] result = multiplyMatrices(matrix1, matrix2);
+
+            System.out.println("\nResultant Matrix:");
+            printMatrix(result);
+        }
+    }
+    ```
 
 
+47. **Question:** Implement a Java program to find the intersection of two arrays.
 
+    **Answer:**
+    ```java
+    import java.util.HashSet;
 
+    public class IntersectionOfArrays {
+        public static int[] findIntersection(int[] arr1, int[] arr2) {
+            HashSet<Integer> set1 = new HashSet<>();
+            HashSet<Integer> intersection = new HashSet<>();
 
+            for (int num : arr1) {
+                set1.add(num);
+            }
+
+            for (int num : arr2) {
+                if (set1.contains(num)) {
+                    intersection.add(num);
+                }
+            }
+
+            return intersection.stream().mapToInt(Integer::intValue).toArray();
+        }
+
+        public static void main(String[] args) {
+            int[] array1 = {1, 2, 4, 5, 6};
+            int[] array2 = {2, 3, 5, 7};
+
+            int[] result = findIntersection(array1, array2);
+
+            System.out.println("Intersection of Arrays:");
+            for (int num : result) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+    ```
+
+48. **Question:** Create a Java program to perform binary search on a sorted array.
+
+    **Answer:**
+    ```java
+    public class BinarySearch {
+        public static int binarySearch(int[] arr, int target) {
+            int low = 0;
+            int high = arr.length - 1;
+
+            while (low <= high) {
+                int mid = low + (high - low) / 2;
+
+                if (arr[mid] == target) {
+                    return mid;
+                } else if (arr[mid] < target) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+
+            return -1; // Element not found
+        }
+
+        public static void main(String[] args) {
+            int[] sortedArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            int target = 5;
+
+            int result = binarySearch(sortedArray, target);
+
+            if (result != -1) {
+                System.out.println("Element found at index: " + result);
+            } else {
+                System.out.println("Element not found in the array.");
+            }
+        }
+    }
+    ```
+
+49. **Question:** Write a Java program to find the longest common prefix of an array of strings.
+
+    **Answer:**
+    ```java
+    public class LongestCommonPrefix {
+        public static String findLongestCommonPrefix(String[] strs) {
+            if (strs == null || strs.length == 0) {
+                return "";
+            }
+
+            String prefix = strs[0];
+
+            for (int i = 1; i < strs.length; i++) {
+                while (strs[i].indexOf(prefix) != 0) {
+                    prefix = prefix.substring(0, prefix.length() - 1);
+                    if (prefix.isEmpty()) {
+                        return "";
+                    }
+                }
+            }
+
+            return prefix;
+        }
+
+        public static void main(String[] args) {
+            String[] strings = {"flower", "flow", "flight"};
+            String longestCommonPrefix = findLongestCommonPrefix(strings);
+
+            System.out.println("Longest Common Prefix: " + longestCommonPrefix);
+        }
+    }
+    ```
+
+50. **Question:** Implement a Java program to count the occurrence of each word in a given text.
+
+    **Answer:**
+    ```java
+    import java.util.HashMap;
+    import java.util.Map;
+
+    public class WordFrequencyCounter {
+        public static Map<String, Integer> countWordFrequency(String text) {
+            Map<String, Integer> frequencyMap = new HashMap<>();
+            String[] words = text.split("\\s+");
+
+            for (String word : words) {
+                word = word.toLowerCase().replaceAll("[^a-zA-Z]", "");
+                frequencyMap.put(word, frequencyMap.getOrDefault(word, 0) + 1);
+            }
+
+            return frequencyMap;
+        }
+
+        public static void main(String[] args) {
+            String inputText = "Java is a programming language. Java is widely used for web development.";
+
+            Map<String, Integer> frequencyMap = countWordFrequency(inputText);
+
+            System.out.println("Word Frequencies:");
+            for (Map.Entry<String, Integer> entry : frequencyMap.entrySet()) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+        }
+    }
+    ```
 
