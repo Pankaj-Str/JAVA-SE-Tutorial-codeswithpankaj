@@ -131,30 +131,31 @@ e. !(y < 10)
 
 
 19. Write a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
-
+```yaml
 Percentage >= 90% : Grade A
 Percentage >= 80% : Grade B
 Percentage >= 70% : Grade C
 Percentage >= 60% : Grade D
 Percentage >= 40% : Grade E
 Percentage < 40% : Grade F
-
+```
 
 20. Write a program to input basic salary of an employee and calculate its Gross salary according to following:
-
+```yaml
 Basic Salary <= 10000 : HRA = 20%, DA = 80%
 Basic Salary <= 20000 : HRA = 25%, DA = 90%
 Basic Salary > 20000 : HRA = 30%, DA = 95%
-
+```
 
 21. Write a program to input electricity unit charges and calculate total electricity bill according to the given condition:
 
+```yaml
 For first 50 units Rs. 0.50/unit
 For next 150 units Rs. 0.75/unit
 For next 250 units Rs. 1.20/unit
 For unit above 250 Rs. 1.50/unit
 An additional surcharge of 20% is added to the bill
-
+```
 
 22. while purchasing certain items, a discount of 10% is offered if the quantity purchased is more than 100. If quantity and price per item are input through the keyboard, write a program to calculate the total expenses
 
@@ -169,22 +170,22 @@ An additional surcharge of 20% is added to the bill
 
 
 25. The marks obtained by a student in 5 different subjects are input through the keyboard. The student gets a division as per the following rules: Write a program to calculate the division obtained by the student
-
+```yaml
 Percentage above or equal to 60 - First division
 Percentage between 50 and 59 - Second division
 Percentage between 40 and 49 - Third division
 Percentage less than 40 – Fail
-
+```
 
 26. A company insures its drivers in the following cases:
-
+```yaml
 If the driver is married
 If the driver is unmarried, male & above 30 years of age
 If the driver is unmarried, female & above 25 years of age
-
+```
 
 27. Write a program to calculate the salary as per the following table
-
+```yaml
 Gender	Year of Service	Qualifications	Salary
 Male	>= 10	Post - Graduate	15000
 >= 10	Graduate	10000
@@ -194,7 +195,7 @@ Female	>= 10	Post - Graduate	12000
 >= 10	Graduate	9000
 < 10	Post - Graduate	10000
 < 10	Graduate	6000
-
+```
 
 28. A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not
 
@@ -217,7 +218,7 @@ Female	>= 10	Post - Graduate	12000
 
 
 33. A certain grade of steel is graded according to the following conditions
-
+```yaml
 Hardness must be greater than 50
 Carbon content must be less than 0.7
 Tensile strength must be greater than 5600
@@ -229,7 +230,8 @@ Grade is 8 if conditions (ii) and (iii) are met
 Grade is 7 if conditions (i) and (iii) are met
 Grade is 6 if only one condition is met
 Grade is 5 if none of the conditions are met
-Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel
+```
+34. Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel
 
 
 
