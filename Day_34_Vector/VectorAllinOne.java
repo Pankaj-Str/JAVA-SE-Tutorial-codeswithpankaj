@@ -1,4 +1,4 @@
-package Day_34_Vector;
+// package Day_34_Vector;
 
 import java.util.Vector;
 
@@ -30,7 +30,7 @@ class VectorAllinOne{
 
         // Access elements in the Vector by index
 
-        System.out.println("Access data item : "+data.get(2));
+        // System.out.println("Access data item : "+data.get(2));
 
         // Change an element in the Vector
 
