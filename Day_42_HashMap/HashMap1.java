@@ -13,17 +13,19 @@ public class HashMap1 {
         data.put(103, "Fafda");
         data.put(104, "Jalebi");
         data.put(105, "Dhokla");
+        data.put(106, "pav");
+        data.put(107, "pav bhaji");
     
         System.out.println("Data : "+data);
 
         // Accessing 
 
-        System.out.println("Food : "+data.get(103));
+        System.out.println("Food : "+data.get(105));
 
         // Modifying HashMap
-        data.put(104, "Vada Pav");
-        data.put(106, "Pav Bhaji");
-        System.out.println("Update Data Item :"+data);
+        data.put(104, "Vada Pav1");
+        data.put(106, "Pav Bhaji1");
+        // System.out.println("Update Data Item :"+data);
 
         // Removing Elements from HashMap
         data.remove(102);

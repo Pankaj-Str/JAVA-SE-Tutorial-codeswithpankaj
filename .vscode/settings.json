@@ -4,7 +4,8 @@
     "java.project.sourcePaths": [
         "Day_61_Immutable_Objects/MutableObjects",
         "Day_61_Immutable_Objects/ImmutableObjects",
+        "Day_04_SwitchStatement/SwitchCase",
         "Day_01_Introduction/user_input",
-        "Day_04_SwitchStatement/SwitchCase"
+        "Day_50_Set_Interface"
     ]
 }
