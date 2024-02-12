@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class ProducerConsumerExample {
+public class ProducerConsumerExample{
     public static void main(String[] args) {
         Buffer buffer = new Buffer(5);
 

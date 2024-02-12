@@ -4,7 +4,7 @@ public class BankAccountExample {
     public static void main(String[] args) {
         BankAccount account = new BankAccount();
 
-        Thread thread1 = new Thread(new AccountHolder("Alice", account, 100));
+        Thread thread1 = new Thread(new AccountHolder("Alice", account, 1000));
         Thread thread2 = new Thread(new AccountHolder("Bob", account, 150));
 
         thread1.start();
