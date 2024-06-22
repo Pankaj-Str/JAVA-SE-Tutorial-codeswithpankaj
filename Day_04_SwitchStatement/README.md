@@ -151,3 +151,38 @@ Example : <br><br>
 
 ```
 
+4. Advance Salary System
+```yaml
+
+-- User Input 
+----------------
+Employee ID  = OA90
+Employee Name = Omji
+Month = 3
+year = 2024
+Leaves = 14
+Conveyance Allowance = 5%
+Medical Allowance = 10%
+Other Allowances = 3%
+Salary Basic = 56000/-
+Professional Tax = 10%
+----------------
+-- Output
+-----------------------
+Paid Days = 17 Days
+Basic Salary = 56000/-
+Total Working Days = 31 
+Leaves Amount =  25290.32
+Conveyance Allowance = 33600/-  
+Medical Allowance =  67200/-
+Other Allowances = 20160/-
+CTC = 786240/-
+Total Allowance = 120960/- 
+Professional Tax = 2276.12/-
+Total Deductions = 27566.12/-
+Total Earnings Allowance  Monthly = 10080/- 
+Net Salary   = 28434/-
+Month = 	March/2024	
+
+```
+
