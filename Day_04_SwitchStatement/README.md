@@ -186,3 +186,39 @@ Month = 	March/2024
 
 ```
 
+##### formula help ?
+
+```yaml
+
+
+
+User Input 
+----------------
+Employee ID  = OA90
+Employee Name = Omji
+Month = 3
+year = 2024
+Leaves = 14
+Conveyance Allowance = 5%
+Medical Allowance = 10%
+Other Allowances = 3%
+Salary Basic = 56000/-
+Professional Tax = 10%
+----------------
+Paid Days = 17 Days (Leave Days - Month Days)
+Basic Salary = 56000/- 
+Total Working Days = 31 (Month Days) 
+Leaves Amount =  25290.32 (Month Days - Leave Days)
+Conveyance Allowance = 33600/-  (Yearly Salary*Conveyance Allowance/100)
+Medical Allowance =  67200/- (Yearly Salary*Medical Allowance/100)
+Other Allowances = 20160/- (Yearly Salary*Other Allowances/100)
+CTC = 786240/- ((Monthly Salary *12)+Conveyance Allowance+Medical Allowance+Other Allowances)
+Total Allowance = 120960/- (Conveyance Allowance+Medical Allowance+Other Allowances)
+Professional Tax = 2276.12/- (Basic Salary - leave amount ) - (Total Salary*Professional Tax/100)
+Total Deductions = 27566.12/- (Professional Tax + Leaves Amount ) - Basic Salary 
+Total Earnings Allowance  Monthly = 10080/- (Conveyance Allowance+Medical Allowance+Other Allowances)
+Net Salary   = 28434/- (Total Earnings Allowance  Monthly + Basic Salary) - Total Deductions
+Month = 	March/2024
+
+```
+
