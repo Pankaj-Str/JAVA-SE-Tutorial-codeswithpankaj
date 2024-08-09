@@ -1,138 +1,68 @@
 
-# Java MCQ Exam System
 
-## Instructions:
-- Choose the correct answer for each question.
-- Each correct answer will give you 1 point.
-- There is no negative marking for incorrect answers.
-- You must answer all questions.
+# Python Basics Quiz
 
----
+### 01. What is the correct file extension for Python files?
+- [ ] .pyth
+- [ ] .pt
+- [x] .py
+- [ ] .pyt
 
-### Question 1:
-**Which of the following is a valid declaration of a char?**
+### 02. How do you insert comments in Python code?
+- [ ] //
+- [ ] <!-- -->
+- [x] #
+- [ ] \*
 
-- [ ] A. char c1 = 'abc';
-- [ ] B. char c1 = '\u1234';
-- [ ] C. char c2 = 12.34;
-- [ ] D. char c3 = 'a';
+### 03. Which one is NOT a legal variable name?
+- [x] 2myvar
+- [ ] my_var
+- [ ] _myvar
+- [ ] myVar
 
----
+### 04. What is the correct syntax to output "Hello World" in Python?
+- [ ] echo("Hello World")
+- [ ] p("Hello World")
+- [ ] msg("Hello World")
+- [x] print("Hello World")
 
-### Question 2:
-**Which of these is not a valid data type in Java?**
+### 05. How do you create a variable with the numeric value 5?
+- [x] x = 5
+- [ ] x = int(5)
+- [ ] x = num(5)
+- [ ] x = 5.0
 
-- [ ] A. int
-- [ ] B. float
-- [ ] C. double
-- [ ] D. string
+### 06. Which of these collections defines a set?
+- [ ] {"name": "John", "age": 36}
+- [ ] ["apple", "banana", "cherry"]
+- [ ] ("apple", "banana", "cherry")
+- [x] {"apple", "banana", "cherry"}
 
----
+### 07. What is the correct way to create a function in Python?
+- [ ] function myFunction():
+- [x] def myFunction():
+- [ ] create myFunction():
+- [ ] define myFunction():
 
-### Question 3:
-**Which method is used to start a thread execution?**
-
-- [ ] A. run()
-- [ ] B. start()
-- [ ] C. execute()
-- [ ] D. call()
-
----
-
-### Question 4:
-**What is the output of the following code?**
-
-```java
-public class Test {
-    public static void main(String[] args) {
-        int x = 5;
-        System.out.println(x++);
-    }
-}
+### 08. What is the output of the following code?
+```python
+x = "Python"
+print(len(x))
 ```
+- [ ] 7
+- [ ] 5
+- [ ] 4
+- [x] 6
 
-- [ ] A. 5
-- [ ] B. 6
-- [ ] C. 4
-- [ ] D. Compilation Error
+### 09. Which keyword is used to create a class in Python?
+- [ ] function
+- [ ] define
+- [ ] method
+- [x] class
 
----
-
-### Question 5:
-**Which of these keywords is used to define a subclass?**
-
-- [ ] A. super
-- [ ] B. this
-- [ ] C. extends
-- [ ] D. implements
-
----
-
-### Question 6:
-**Which of these classes are not a part of Java's collection framework?**
-
-- [ ] A. HashMap
-- [ ] B. ArrayList
-- [ ] C. LinkedList
-- [ ] D. Stack
-
----
-
-### Question 7:
-**Which of the following is a marker interface?**
-
-- [ ] A. Serializable
-- [ ] B. Cloneable
-- [ ] C. Runnable
-- [ ] D. Remote
-
----
-
-### Question 8:
-**Which of these statements is incorrect about packages?**
-
-- [ ] A. Package defines a namespace in which classes are stored.
-- [ ] B. A package can contain multiple classes.
-- [ ] C. Packages are used to avoid name conflicts.
-- [ ] D. A package cannot be imported into another package.
-
----
-
-### Question 9:
-**Which of the following is not a type of constructor?**
-
-- [ ] A. Default constructor
-- [ ] B. Copy constructor
-- [ ] C. Static constructor
-- [ ] D. Parameterized constructor
-
----
-
-### Question 10:
-**Which of these methods is used to find out the current state of a thread?**
-
-- [ ] A. isAlive()
-- [ ] B. getState()
-- [ ] C. isRunning()
-- [ ] D. checkState()
-
----
-
-## Answer Key:
-
-1. **D.** char c3 = 'a';
-2. **D.** string
-3. **B.** start()
-4. **A.** 5
-5. **C.** extends
-6. **D.** Stack
-7. **A.** Serializable
-8. **D.** A package cannot be imported into another package.
-9. **C.** Static constructor
-10. **B.** getState()
-
----
-
-**End of Exam**
-
+### 10. What is the correct syntax to import a module in Python?
+- [x] import module_name
+- [ ] include module_name
+- [ ] using module_name
+- [ ] require module_name
 
