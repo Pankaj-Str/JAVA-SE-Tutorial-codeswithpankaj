@@ -1,4 +1,4 @@
-### **Java Polymorphism **
+# Java Polymorphism
 
 Polymorphism is one of the four core concepts of object-oriented programming (OOP), along with encapsulation, inheritance, and abstraction. The term **polymorphism** is derived from Greek, meaning "many forms." In Java, polymorphism allows objects to be treated as instances of their parent class rather than their actual class. This enables a single method to work in different ways depending on the object it is acting upon. This guide will delve into the concept of polymorphism in Java, exploring its types, benefits, and practical applications with detailed examples.
 
