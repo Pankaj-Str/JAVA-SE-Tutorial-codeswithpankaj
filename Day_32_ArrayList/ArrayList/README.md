@@ -642,4 +642,109 @@ public class TrimToSizeExample {
 }
 ```
 
+## The `ArrayList` class in Java inherits the `equals` and `hashCode` methods from the `java.util.AbstractList` class. Here’s how you can use these methods in examples:
 
+### `equals(Object o)`
+
+The `equals` method is used to compare the current list with another object to check if they are equal. Two lists are considered equal if they have the same size and contain the same elements in the same order.
+
+#### Example:
+
+```java
+import java.util.ArrayList;
+
+public class EqualsExample {
+    public static void main(String[] args) {
+        ArrayList<String> list1 = new ArrayList<>();
+        list1.add("Java");
+        list1.add("Python");
+        list1.add("JavaScript");
+
+        ArrayList<String> list2 = new ArrayList<>();
+        list2.add("Java");
+        list2.add("Python");
+        list2.add("JavaScript");
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.add("Java");
+        list3.add("Python");
+
+        // Comparing list1 with list2
+        boolean isEqual1 = list1.equals(list2);
+        System.out.println("list1 is equal to list2: " + isEqual1);
+
+        // Comparing list1 with list3
+        boolean isEqual2 = list1.equals(list3);
+        System.out.println("list1 is equal to list3: " + isEqual2);
+    }
+}
+```
+
+**Output:**
+```
+list1 is equal to list2: true
+list1 is equal to list3: false
+```
+
+In this example:
+- `list1` and `list2` are considered equal because they contain the same elements in the same order.
+- `list1` and `list3` are not equal because `list3` is missing the element "JavaScript" and is shorter.
+
+### `int hashCode()`
+
+The `hashCode` method returns an integer hash code value for the list. This method is used in hashing-based collections like `HashSet` and `HashMap`. The hash code is based on the list's contents.
+
+#### Example:
+
+```java
+import java.util.ArrayList;
+
+public class HashCodeExample {
+    public static void main(String[] args) {
+        ArrayList<String> list1 = new ArrayList<>();
+        list1.add("Java");
+        list1.add("Python");
+        list1.add("JavaScript");
+
+        ArrayList<String> list2 = new ArrayList<>();
+        list2.add("Java");
+        list2.add("Python");
+        list2.add("JavaScript");
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.add("Java");
+        list3.add("Python");
+
+        // Getting hash codes for the lists
+        int hashCode1 = list1.hashCode();
+        int hashCode2 = list2.hashCode();
+        int hashCode3 = list3.hashCode();
+
+        System.out.println("Hash code of list1: " + hashCode1);
+        System.out.println("Hash code of list2: " + hashCode2);
+        System.out.println("Hash code of list3: " + hashCode3);
+
+        // Comparing hash codes
+        boolean isHashCodeEqual1 = (hashCode1 == hashCode2);
+        System.out.println("Hash code of list1 is equal to hash code of list2: " + isHashCodeEqual1);
+
+        boolean isHashCodeEqual2 = (hashCode1 == hashCode3);
+        System.out.println("Hash code of list1 is equal to hash code of list3: " + isHashCodeEqual2);
+    }
+}
+```
+
+**Output:**
+```
+Hash code of list1: 2079801393
+Hash code of list2: 2079801393
+Hash code of list3: 1904721817
+Hash code of list1 is equal to hash code of list2: true
+Hash code of list1 is equal to hash code of list3: false
+```
+
+In this example:
+- `list1` and `list2` have the same hash code because they are equal and have the same elements in the same order.
+- `list1` and `list3` have different hash codes because their contents differ.
+
+These examples show how the `equals` and `hashCode` methods work in the context of `ArrayList` and help in comparing and hashing lists.
