@@ -1,4 +1,4 @@
-# **Tutorial: Annotations and Base64 Encoding in Java - Codes with Pankaj**
+# Annotations and Base64 Encoding in Java
 
 Welcome to **Codes with Pankaj**! In this tutorial, we'll dive deep into two crucial concepts in Java: **Annotations** and **Base64 Encoding**. By the end of this guide, you'll have a solid understanding of how to create and use annotations, as well as how to perform Base64 encoding and decoding in Java.
 
