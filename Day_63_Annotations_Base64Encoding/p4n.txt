@@ -1,0 +1,1 @@
+we learned about Annotations and Base64 Encoding in Java. Annotations help add extra information to your code, making it easier to manage and understand. Base64 encoding is a useful tool for converting data into a format that can be easily shared or stored.
