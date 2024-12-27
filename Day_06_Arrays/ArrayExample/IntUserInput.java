@@ -17,9 +17,17 @@ public class IntUserInput {
 
         
         for (int i = 0; i < size; i++) {
-            System.out.println("Enter Array elements .... ["+i+"] ");
+            System.out.println("Enter Array elements .... ["+i+"] = ");
             array[i] = scanner.nextInt();
         }
+
+
+        // print all element of array
+        System.out.println("Array elements are : ");
+        for (int i = 0; i < size; i++) {
+            System.out.println("Array elements are : "+"["+i+"]  = "+array[i]);
+        }
+
     }
 
 
