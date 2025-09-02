@@ -8,5 +8,6 @@
         "Day_04_SwitchStatement/SwitchCase",
         "Day_01_Introduction/user_input",
         "Example00"
-    ]
+    ],
+    "java.format.settings.url": ".vscode/java-formatter.xml"
 }
