@@ -89,7 +89,7 @@ Logical operators are used to combine multiple boolean expressions. They are oft
 | Operator | Description            | Example            |
 |----------|-------------------------|--------------------|
 | `&&`     | Logical AND              | `a && b`           |
-| `||`     | Logical OR               | `a || b`           |
+|  II     | Logical OR               | `a || b`           |
 | `!`      | Logical NOT              | `!a`               |
 
 **Example:**
@@ -233,4 +233,5 @@ int rightShift = a >> 1;  // 0010 (2 in decimal)
 Operators in Java are powerful tools that allow you to perform a wide range of operations, from basic arithmetic to complex logical and bitwise operations. By mastering these operators, you can write more efficient and effective Java code.
 
 For more Java tutorials and resources, visit [codeswithpankaj.com](http://codeswithpankaj.com).
+
 
